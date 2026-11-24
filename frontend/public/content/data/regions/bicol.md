@@ -89,7 +89,7 @@ heritageSites:
     "Donsol whale shark waters",
     "Caramoan Islands",
   ]
-image: ""
+image: "/content/images/region-5/bicol-region.jpg"
 imageCredit: ""
 reviewed: false
 ---

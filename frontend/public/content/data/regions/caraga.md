@@ -64,7 +64,7 @@ heritageSites:
     "Enchanted River, Hinatuan",
     "Agusan Marsh",
   ]
-image: ""
+image: "/content/images/region-13/caraga-region.jpg"
 imageCredit: ""
 reviewed: false
 ---

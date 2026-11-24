@@ -56,7 +56,7 @@ heritageSites:
     "Sohoton Natural Bridge (Samar)",
     "Kalanggaman Island",
   ]
-image: ""
+image: "/content/images/region-8/eastern-visayas-region.avif"
 imageCredit: ""
 reviewed: false
 ---

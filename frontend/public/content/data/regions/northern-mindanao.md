@@ -86,7 +86,7 @@ heritageSites:
     "Del Monte pineapple plantation",
     "Maria Cristina Falls, Iligan",
   ]
-image: ""
+image: "/content/images/region-10/northen-mindanao-region.jpg"
 imageCredit: ""
 reviewed: false
 ---

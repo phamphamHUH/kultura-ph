@@ -47,7 +47,7 @@ heritageSites:
     "Loboc Children's Choir",
     "Kawasan Falls, Badian",
   ]
-image: ""
+image: "/content/images/region-7/central-visayas-region.jpg"
 imageCredit: ""
 reviewed: false
 ---

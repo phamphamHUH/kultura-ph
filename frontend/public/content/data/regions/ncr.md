@@ -57,7 +57,7 @@ heritageSites:
     "Rizal Park",
     "Quiapo Church",
   ]
-image: ""
+image: "/content/images/NCR/NCR.jpg"
 imageCredit: ""
 reviewed: false
 ---

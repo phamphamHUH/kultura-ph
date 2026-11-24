@@ -68,7 +68,7 @@ heritageSites:
     "St. Francis of Assisi Church, Siquijor",
     "Dumaguete Rizal Boulevard",
   ]
-image: ""
+image: "/content/images/NIR/NIR.jpg"
 imageCredit: ""
 reviewed: false
 ---

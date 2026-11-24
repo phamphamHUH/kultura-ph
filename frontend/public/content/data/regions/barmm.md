@@ -68,7 +68,7 @@ heritageSites:
     "Tawi-Tawi islands",
     "Sheikh Karimol Makhdum Mosque (Simunul, Tawi-Tawi), the first mosque in the Philippines",
   ]
-image: ""
+image: "/content/images/BARMM/BARMM.png"
 imageCredit: ""
 reviewed: false
 ---

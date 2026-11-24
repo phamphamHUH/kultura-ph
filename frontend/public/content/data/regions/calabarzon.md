@@ -78,7 +78,7 @@ heritageSites:
     "Angono Petroglyphs",
     "Pagsanjan Falls",
   ]
-image: ""
+image: "/content/images/region-4/CALABARZON.jpg"
 imageCredit: ""
 reviewed: false
 ---

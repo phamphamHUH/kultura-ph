@@ -53,7 +53,7 @@ heritageSites:
     "Mount Matutum",
     "Maitum anthropomorphic burial jars (Sarangani)",
   ]
-image: ""
+image: "/content/images/region-12/soccsksargen-region.jpg"
 imageCredit: ""
 reviewed: false
 ---

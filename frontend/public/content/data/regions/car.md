@@ -74,7 +74,7 @@ heritageSites:
     "Burnham Park",
     "Mt. Pulag",
   ]
-image: ""
+image: "/content/images/CAR/CAR.jpg"
 imageCredit: ""
 reviewed: false
 ---

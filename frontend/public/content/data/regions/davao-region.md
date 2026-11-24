@@ -67,7 +67,7 @@ heritageSites:
     "Island Garden City of Samal",
     "Dahican Beach, Mati",
   ]
-image: ""
+image: "/content/images/region-11/davao-region.jpg"
 imageCredit: ""
 reviewed: false
 ---

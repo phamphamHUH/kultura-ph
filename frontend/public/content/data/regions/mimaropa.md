@@ -78,7 +78,7 @@ heritageSites:
     "El Nido and Coron",
     "Mt. Halcon",
   ]
-image: ""
+image: "/content/images/MIMAROPA/MIMAROPA.jpg"
 imageCredit: ""
 reviewed: false
 ---

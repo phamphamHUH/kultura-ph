@@ -63,7 +63,7 @@ heritageSites:
     "Boracay",
     "Guimaras",
   ]
-image: ""
+image: "/content/images/region-6/western-visayas-region.jpg"
 imageCredit: ""
 reviewed: false
 ---

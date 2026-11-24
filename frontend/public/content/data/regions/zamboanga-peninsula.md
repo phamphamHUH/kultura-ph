@@ -77,7 +77,7 @@ heritageSites:
     "Rizal Shrine, Dapitan",
     "Sulu Archipelago",
   ]
-image: ""
+image: "/content/images/region-9/zamboanga-peninsula-region.jpg"
 imageCredit: ""
 reviewed: false
 ---

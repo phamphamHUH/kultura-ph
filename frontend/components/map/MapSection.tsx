@@ -1,9 +1,8 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import MapLoader from "./MapLoader";
 import FocusCard, { type RegionInfo } from "../layout/FocusCard";
-import { useEffect } from "react";
 
 const regions = [
   { slug: "region-1", name: "Ilocos Region" },
@@ -26,8 +25,13 @@ const regions = [
   { slug: "barmm", name: "Bangsamoro Autonomous Region in Muslim Mindanao" },
 ];
 
-export default function MapSection() {
-  const [selectedSlug, setSelectedSlug] = useState("region-1");
+export default function MapSection({
+  selectedSlug,
+  onSelectedSlugChange,
+}: {
+  selectedSlug: string;
+  onSelectedSlugChange: (slug: string) => void;
+}) {
   const [region, setRegion] = useState<RegionInfo | null>(null);
   const [loading, setLoading] = useState(true);
 
@@ -38,10 +42,15 @@ export default function MapSection() {
       setLoading(true);
 
       try {
-        const response = await fetch(`/content/data/regions/${selectedSlug}.md`);
+        const response = await fetch(
+          `/content/data/regions/${selectedSlug}.md`,
+        );
         if (!response.ok) throw new Error("Region content unavailable");
 
-        const markdown = await response.text();
+        // Windows/Git can save files with CRLF line endings; normalize them
+        // so the patterns below work on any machine.
+        const markdown = (await response.text()).replace(/\r\n/g, "\n");
+
         const frontmatterMatch = markdown.match(/^---\n([\s\S]*?)\n---/);
         const frontmatter = frontmatterMatch?.[1] ?? "";
 
@@ -55,14 +64,19 @@ export default function MapSection() {
           return [...value.matchAll(/"([^"]+)"/g)].map((match) => match[1]);
         };
 
-        const overviewMatch = markdown.match(/^## Overview\n([\s\S]*?)(?=\n## |\n*$)/m);
+        // Everything under "## Overview" up to the next "## " heading or the
+        // end of the file. (`$(?![\s\S])` means "end of the whole string",
+        // since the `m` flag makes a plain `$` match at every line end.)
+        const overviewMatch = markdown.match(
+          /^## Overview\s*\n([\s\S]*?)(?=\n## |$(?![\s\S]))/m,
+        );
         const overview = overviewMatch?.[1]?.trim().replace(/\n+/g, " ") ?? "";
 
         const food = readList("food");
         const crafts = readList("crafts");
-        const festivals = [...frontmatter.matchAll(/\{\s*name:\s*"([^"]+)"/g)].map(
-          (match) => match[1],
-        );
+        const festivals = [
+          ...frontmatter.matchAll(/\{\s*name:\s*"([^"]+)"/g),
+        ].map((match) => match[1]);
 
         if (!cancelled) {
           setRegion({
@@ -73,6 +87,7 @@ export default function MapSection() {
             threads: [festivals[0], food[0], crafts[0]].filter(
               (thread): thread is string => Boolean(thread),
             ),
+            image: readValue("image"),
           });
         }
       } catch {
@@ -90,14 +105,14 @@ export default function MapSection() {
 
   return (
     <section
-      className="h-140 w-full grid grid-cols-5 gap-6"
+      className="grid  w-full grid-cols-5 gap-6"
       aria-label="Philippines region map"
     >
       <div className="col-span-3">
         <MapLoader
           regions={regions}
           selectedSlug={selectedSlug}
-          onSelect={setSelectedSlug}
+          onSelect={onSelectedSlugChange}
         />
       </div>
       <div className="col-span-2">

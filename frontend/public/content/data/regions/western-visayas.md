@@ -15,8 +15,8 @@ festivals:
       month: 1,
       tagline: "Drums, soot and devotion.",
       description: "Kalibo's festival honors the Santo Niño and recalls the Ati, the island's earliest inhabitants, with drumming, street dancing and participants in tribal costume and body paint.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/ati-atihan.jpg",
+      credit: "Wikipedia / Ati-Atihan",
     }
   - {
       name: "Dinagyang",
@@ -25,8 +25,8 @@ festivals:
       month: 1,
       tagline: "Warriors dancing for the Santo Niño.",
       description: "Iloilo City's festival honors the Santo Niño and features tribal groups in colorful costumes performing choreographed street dances that recall the Ati.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/dinagyang.jpg",
+      credit: "Wikipedia / Dinagyang",
     }
 tentativeFestivals:
   - {
@@ -35,8 +35,8 @@ tentativeFestivals:
       when: "",
       tagline: "Antique remembers its arrivals.",
       description: "Antique's festival commemorates the legendary arrival of Bornean datus in Panay, with a re-enactment and cultural events. Dates should be confirmed with local organizers.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/binirayan-festival.jpg",
+      credit: "Ranieljosecastaneda (CC BY-SA 4.0)",
     }
   - {
       name: "Halaran Festival",
@@ -44,8 +44,8 @@ tentativeFestivals:
       when: "",
       tagline: "An offering of thanks.",
       description: "Roxas City's festival, whose name evokes an offering, features street dancing and community celebration. Dates should be confirmed with local organizers.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/halaran-festival.jpg",
+      credit: "Phantomsea2005 (Public domain)",
     }
 food:
   ["La Paz batchoy", "Piaya", "Guimaras mangoes", "Napoleones", "Capiz seafood"]
@@ -65,6 +65,16 @@ heritageSites:
   ]
 image: "/content/images/region-6/western-visayas-region.jpg"
 imageCredit: ""
+storyImages:
+  crafts:
+    image: "/content/images/heritage/western-visayas-crafts.jpg"
+    credit: "P1898 (CC BY 4.0)"
+  food:
+    image: "/content/images/heritage/western-visayas-food.jpg"
+    credit: "Mhlayson (CC BY-SA 4.0)"
+  heritage:
+    image: "/content/images/heritage/western-visayas-heritage.jpg"
+    credit: "Philip Nalangan (CC BY 4.0)"
 reviewed: false
 ---
 

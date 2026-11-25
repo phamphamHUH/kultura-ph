@@ -16,8 +16,8 @@ festivals:
       month: 1,
       tagline: "Scarecrows, harvests, and Isabela's creativity.",
       description: "Isabela's festival takes its name from the Ilocano word for scarecrow. It celebrates the province's agricultural identity through performances, displays, and community participation.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/bambanti-festival.jpg",
+      credit: "Carmilynatienza (CC BY-SA 4.0)",
     }
   - {
       name: "Aggao Nac Cagayan",
@@ -26,8 +26,8 @@ festivals:
       month: 6,
       tagline: "A province gathers to remember and celebrate.",
       description: "Cagayan's provincial anniversary celebration commemorates the establishment of its civil government, bringing communities together through cultural activities and public events.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/aggao-nac-cagayan.jpg",
+      credit: "Judgefloro (Public domain)",
     }
   - {
       name: "Pavvurulun Afi",
@@ -36,8 +36,8 @@ festivals:
       month: 8,
       tagline: "Tuguegarao comes together.",
       description: "Tuguegarao's festival brings the city together for cultural celebrations and its patronal feast honoring Saint Hyacinth, locally known as San Jacinto.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/pavvurulun-afi.jpg",
+      credit: "Alyssa Mappatao (CC BY-SA 4.0)",
     }
 tentativeFestivals: []
 food:
@@ -61,6 +61,16 @@ heritageSites:
   ]
 image: "/content/images/region-2/cagayan-region.jpg"
 imageCredit: ""
+storyImages:
+  crafts:
+    image: "/content/images/heritage/region-2-crafts.jpg"
+    credit: "CharMel Creations (talk · contribs) (CC BY-SA 4.0)"
+  food:
+    image: "/content/images/heritage/region-2-food.jpg"
+    credit: "Markadan (CC BY-SA 4.0)"
+  heritage:
+    image: "/content/images/heritage/region-2-heritage.jpg"
+    credit: "Jsinglador (CC BY-SA 4.0)"
 reviewed: false
 ---
 

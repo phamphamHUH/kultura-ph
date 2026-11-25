@@ -20,8 +20,8 @@ festivals:
       day: 15,
       tagline: "A harvest wrapped in color.",
       description: "Honors San Isidro Labrador, patron saint of farmers. Lucban's houses are decorated with colorful kiping (rice-paste wafers), fruits and vegetables in thanks for a good harvest.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/pahiyas-festival.jpg",
+      credit: "Wikipedia / Lucban",
     }
   - {
       name: "Higantes Festival",
@@ -31,8 +31,8 @@ festivals:
       day: 23,
       tagline: "Giants take to the streets.",
       description: "Angono's festival features towering papier-mâché figures paraded through the streets in honor of San Clemente, the town's patron saint, reflecting the town's reputation as the art capital of the Philippines.",
-      image: "/content/images/calabarzon/higantes.jpg",
-      credit: "",
+      image: "/content/images/festivals/higantes-festival.jpg",
+      credit: "Wikipedia / Higantes Festival",
     }
 tentativeFestivals:
   - {
@@ -41,8 +41,8 @@ tentativeFestivals:
       when: "",
       tagline: "Dancing for Our Lady of Sorrows.",
       description: "Pakil's devotional festival honoring Our Lady of Sorrows, marked by processions and the turumba, a dance of devotion performed by devotees. Observances are spread across several months, so confirm dates with the parish.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/turumba-festival.jpg",
+      credit: "Judgefloro (CC0)",
     }
   - {
       name: "Anilag Festival",
@@ -50,8 +50,8 @@ tentativeFestivals:
       when: "",
       tagline: "Laguna's culture, on parade.",
       description: "A provincial festival of Laguna featuring street dancing and cultural showcases that celebrate the province's heritage. Dates should be confirmed with the provincial government.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/anilag-festival.jpg",
+      credit: "Richmond Chi (CC BY-SA 4.0)",
     }
 food:
   [
@@ -80,6 +80,16 @@ heritageSites:
   ]
 image: "/content/images/region-4/CALABARZON.jpg"
 imageCredit: ""
+storyImages:
+  food:
+    image: "/content/images/heritage/calabarzon-food.jpg"
+    credit: "Magicsdcar (CC BY 4.0)"
+  crafts:
+    image: "/content/images/heritage/calabarzon-crafts.jpg"
+    credit: "Judgefloro (CC0)"
+  heritage:
+    image: "/content/images/heritage/calabarzon-heritage.jpg"
+    credit: "Ramon FVelasquez (CC BY-SA 3.0)"
 reviewed: false
 ---
 

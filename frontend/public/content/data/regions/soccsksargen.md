@@ -16,8 +16,8 @@ festivals:
       month: 7,
       tagline: "Dream-woven cloth, celebrated.",
       description: "Celebrates South Cotabato's culture and the T'nalak, an abaca cloth woven by T'boli dreamweavers following designs said to come in dreams, with street dancing and cultural events.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/tnalak-festival.jpg",
+      credit: "Constantine Agustin (CC BY-SA 2.0)",
     }
   - {
       name: "Tuna Festival",
@@ -26,8 +26,8 @@ festivals:
       month: 9,
       tagline: "The tuna capital celebrates.",
       description: "General Santos City celebrates its tuna industry and city anniversary with street dancing, fish-themed events and tuna-based food.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/tuna-festival.jpg",
+      credit: "Tuna Universitária do Minho (Public domain)",
     }
 tentativeFestivals:
   - {
@@ -36,8 +36,8 @@ tentativeFestivals:
       when: "",
       tagline: "Cotabato, gathered.",
       description: "Cotabato Province's festival celebrating the culture of its diverse communities. Dates should be confirmed with the provincial government.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/kalivungan-festival.jpg",
+      credit: "Official Facebook Page of the Provincial Government of (N... (Public domain)",
     }
 food: ["Fresh tuna sashimi and kinilaw (General Santos)", "Bananas", "Pili"]
 crafts:
@@ -55,6 +55,16 @@ heritageSites:
   ]
 image: "/content/images/region-12/soccsksargen-region.jpg"
 imageCredit: ""
+storyImages:
+  crafts:
+    image: "/content/images/heritage/soccsksargen-crafts.jpg"
+    credit: "USAID Biodiversity &amp; Forestry (Public domain)"
+  food:
+    image: "/content/images/heritage/soccsksargen-food.jpg"
+    credit: "Jay Morales, DA-AFID (Public domain)"
+  heritage:
+    image: "/content/images/heritage/soccsksargen-heritage.jpg"
+    credit: "Teemu Väisänen (CC BY-SA 4.0)"
 reviewed: false
 ---
 

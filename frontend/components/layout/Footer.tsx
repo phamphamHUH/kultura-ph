@@ -11,9 +11,9 @@ export default function Footer() {
             <Image
               src="/ktr-ph-logo.png"
               alt="Kultura PH logo"
-              width={40}
-              height={40}
-              className="shrink-0"
+              width={24}
+              height={46}
+              className="h-9 w-auto shrink-0 object-contain sm:h-10"
             />
             <p className="font-bold tracking-widest text-blue-800">
               KULTURA PH

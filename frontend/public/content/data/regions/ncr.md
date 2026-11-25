@@ -16,8 +16,8 @@ festivals:
       day: 9,
       tagline: "A river of devotion.",
       description: "A massive procession in which devotees accompany the image of the Black Nazarene through the streets of Manila to Quiapo Church, expressing faith, penance and thanksgiving.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/traslacion-of-the-black-nazarene.jpg",
+      credit: "Richmond Chi (CC BY-SA 4.0)",
     }
   - {
       name: "Aliwan Fiesta",
@@ -26,8 +26,8 @@ festivals:
       month: 4,
       tagline: "The nation's festivals, on one stage.",
       description: "A showcase of festival and street dance competitions that brings performers from around the country to Manila.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/aliwan-fiesta.jpg",
+      credit: "Wikipedia / Aliwan Fiesta",
     }
   - {
       name: "Santacruzan",
@@ -36,8 +36,8 @@ festivals:
       month: 5,
       tagline: "A procession of flowers and faith.",
       description: "A May tradition of processions with beautifully dressed participants, recalling the legend of Reyna Elena and the finding of the Holy Cross as part of Flores de Mayo.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/santacruzan.jpg",
+      credit: "Wikipedia / Flores de Mayo",
     }
 tentativeFestivals: []
 food:
@@ -59,6 +59,16 @@ heritageSites:
   ]
 image: "/content/images/NCR/NCR.jpg"
 imageCredit: ""
+storyImages:
+  crafts:
+    image: "/content/images/heritage/ncr-crafts.jpg"
+    credit: "Jorge Láscar from Melbourne, Australia (CC BY 2.0)"
+  food:
+    image: "/content/images/heritage/ncr-food.jpg"
+    credit: "Joy D. Ganaden (CC BY-SA 4.0)"
+  heritage:
+    image: "/content/images/heritage/ncr-heritage.jpg"
+    credit: "Diego Delso (CC BY-SA 4.0)"
 reviewed: false
 ---
 

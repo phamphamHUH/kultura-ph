@@ -1,7 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import matter from "gray-matter";
-import { cacheLife } from "next/cache";
 
 const REGIONS_DIR = path.join(
   process.cwd(),
@@ -55,8 +54,6 @@ const festivals = (v: unknown): RegionFestival[] =>
     : [];
 
 export async function getRegionSlugs(): Promise<string[]> {
-  "use cache";
-  cacheLife("max");
   const files = await fs.readdir(REGIONS_DIR);
   return files
     .filter((f) => f.endsWith(".md"))
@@ -64,9 +61,6 @@ export async function getRegionSlugs(): Promise<string[]> {
 }
 
 export async function getRegion(slug: string): Promise<Region | null> {
-  "use cache";
-  cacheLife("max");
-
   if (!/^[a-z0-9-]+$/.test(slug)) return null; // keep URL input out of the file path
 
   try {

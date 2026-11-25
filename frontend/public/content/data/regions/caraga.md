@@ -22,8 +22,8 @@ festivals:
       month: 9,
       tagline: "A city in festive step.",
       description: "Surigao City's festival of street dancing and community celebration, held in September in honor of the city's heritage and as a thanksgiving.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/sillag-festival.jpg",
+      credit: "Lawrence Ruiz (CC BY-SA 4.0)",
     }
 tentativeFestivals:
   - {
@@ -32,8 +32,8 @@ tentativeFestivals:
       when: "",
       tagline: "Surigao del Sur, gathered.",
       description: "Surigao del Sur's provincial festival of cultural presentations and street performances. Dates should be confirmed with the provincial government.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/kadagayaan-festival.jpg",
+      credit: "Mhlayson (CC BY-SA 4.0)",
     }
   - {
       name: "Naliyagan Festival",
@@ -41,8 +41,8 @@ tentativeFestivals:
       when: "",
       tagline: "A province's joyful celebration.",
       description: "Agusan del Sur's provincial festival, celebrating the province's culture and its Indigenous communities. Dates should be confirmed with the provincial government.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/naliyagan-festival.jpg",
+      credit: "Darius Mangampo/DA-AFID (Public domain)",
     }
   - {
       name: "Balangay Festival",
@@ -50,8 +50,8 @@ tentativeFestivals:
       when: "",
       tagline: "Ancient boats, living memory.",
       description: "Celebrates Butuan's balangay heritage, the ancient wooden boats unearthed in the city that point to its early role in regional trade. Dates should be confirmed with the city government.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/balangay-festival.jpg",
+      credit: "Lucky Ambago Purok Otso (CC BY-SA 4.0)",
     }
 food: ["Kinilaw", "Grilled fresh seafood from Siargao"]
 crafts: ["Manobo weaving and beadwork"]
@@ -66,6 +66,16 @@ heritageSites:
   ]
 image: "/content/images/region-13/caraga-region.jpg"
 imageCredit: ""
+storyImages:
+  food:
+    image: "/content/images/heritage/caraga-food.jpg"
+    credit: "Lokalpedia (CC BY-SA 4.0)"
+  crafts:
+    image: "/content/images/heritage/caraga-crafts.jpg"
+    credit: "QueenCityCebu (CC BY-SA 4.0)"
+  heritage:
+    image: "/content/images/heritage/caraga-heritage.jpg"
+    credit: "kbraner (CC BY-SA 3.0)"
 reviewed: false
 ---
 

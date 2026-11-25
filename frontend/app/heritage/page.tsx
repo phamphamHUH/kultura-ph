@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
@@ -136,9 +137,19 @@ export default async function CulturesPage({
                     aria-label={s.title}
                     className="relative aspect-5/3 overflow-hidden rounded-lg bg-gray-300"
                   >
-                    <span className="absolute inset-0 flex items-center justify-center text-xs text-gray-600">
-                      Photo coming soon
-                    </span>
+                    {s.image?.trim() ? (
+                      <Image
+                        src={s.image}
+                        alt={s.title}
+                        fill
+                        sizes="(min-width: 1024px) 40vw, 100vw"
+                        className="object-cover"
+                      />
+                    ) : (
+                      <span className="absolute inset-0 flex items-center justify-center text-xs text-gray-600">
+                        Photo coming soon
+                      </span>
+                    )}
                   </Link>
 
                   <div className="flex min-w-0 flex-col gap-1">
@@ -155,6 +166,12 @@ export default async function CulturesPage({
                     <p className="mt-2 text-sm leading-6 text-gray-600">
                       {s.summary}
                     </p>
+
+                    {s.image?.trim() && s.credit && (
+                      <p className="mt-1 text-[10px] text-gray-500">
+                        Photo: {s.credit}
+                      </p>
+                    )}
 
                     <Link
                       href={`/heritage/${s.regionSlug}/${s.category}`}

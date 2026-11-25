@@ -32,8 +32,8 @@ tentativeFestivals:
       when: "End of Ramadan",
       tagline: "The joy that follows the fast.",
       description: "Marks the end of Ramadan, the month of fasting. Families gather for communal prayers, share festive meals, visit relatives and give to those in need. The date follows the lunar calendar and is confirmed after the new moon is sighted.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/hariraya-eidl-fitr.jpg",
+      credit: "PPD / Cado Niña (Public domain)",
     }
   - {
       name: "Hariraya Eid'l Adha",
@@ -41,8 +41,8 @@ tentativeFestivals:
       when: "Dhul Hijjah",
       tagline: "A feast of faith and sharing.",
       description: "The Feast of Sacrifice, observed in the month of Dhul Hijjah as the pilgrimage to Mecca concludes. It recalls Ibrahim's devotion, and communities share meat from the sacrificial animal with family, neighbors and the poor. The date moves with the lunar calendar.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/hariraya-eidl-adha.jpg",
+      credit: "Judgefloro (CC0)",
     }
   - {
       name: "Maulid un-Nabi",
@@ -50,8 +50,8 @@ tentativeFestivals:
       when: "",
       tagline: "Remembering the Prophet's life.",
       description: "Commemorates the birth of the Prophet Muhammad. Observances typically include prayers, recitations, sermons and community gatherings. The date moves with the lunar calendar.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/maulid-un-nabi.jpg",
+      credit: "Kamarudheenelankur (CC BY-SA 4.0)",
     }
 food: ["Satti", "Piyanggang manok", "Pastil", "Maranao palapa"]
 crafts:
@@ -70,6 +70,16 @@ heritageSites:
   ]
 image: "/content/images/BARMM/BARMM.png"
 imageCredit: ""
+storyImages:
+  crafts:
+    image: "/content/images/heritage/barmm-crafts.jpg"
+    credit: "P1898 (CC BY 4.0)"
+  food:
+    image: "/content/images/heritage/barmm-food.jpg"
+    credit: "Obsidian Soul (CC0)"
+  heritage:
+    image: "/content/images/heritage/barmm-heritage.jpg"
+    credit: "Nikka Cunom (CC BY 2.0)"
 reviewed: false
 ---
 

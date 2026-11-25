@@ -32,8 +32,8 @@ festivals:
       month: 12,
       tagline: "Kapampangan craftsmanship, illuminated.",
       description: "San Fernando's giant lantern celebration showcases the creativity and technical skill of local lantern makers through large illuminated designs and coordinated displays of light.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/giant-lantern-festival.jpg",
+      credit: "Wikipedia / Giant Lantern Festival",
     }
   - {
       name: "Pulilan Carabao Festival",
@@ -42,8 +42,8 @@ festivals:
       month: 5,
       tagline: "A thanksgiving rooted in farming life.",
       description: "Pulilan's celebration honors San Isidro Labrador, the patron saint of farmers, and is known for decorated carabaos and the tradition of having them kneel before the church.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/pulilan-carabao-festival.jpg",
+      credit: "McpoJMdeLeon (CC BY-SA 4.0)",
     }
   - {
       name: "Obando Fertility Rites",
@@ -52,8 +52,8 @@ festivals:
       month: 5,
       tagline: "Faith expressed through prayer and dance.",
       description: "Obando's three-day religious celebration brings devotees together in prayer and dance, including those seeking children, a partner, or blessings for their families and livelihoods.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/obando-fertility-rites.jpg",
+      credit: "Ramon FVelasquez (CC BY-SA 3.0)",
     }
 tentativeFestivals:
   - {
@@ -62,8 +62,8 @@ tentativeFestivals:
       when: "",
       tagline: "A thread to follow in Aurora.",
       description: "Draft entry: confirm the festival's official name, host municipality, schedule, and connection to local sabutan craft traditions with the relevant tourism office before publication.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/sabutan-festival.jpg",
+      credit: "Pedrofolklore (CC BY-SA 4.0)",
     }
   - {
       name: "Zambales Mango Festival",
@@ -71,8 +71,8 @@ tentativeFestivals:
       when: "",
       tagline: "A celebration of Zambales mangoes.",
       description: "Draft entry: confirm the festival's official name and annual schedule with the provincial tourism office before publishing event details.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/zambales-mango-festival.jpg",
+      credit: "Ramon FVelasquez (CC BY-SA 3.0)",
     }
 food:
   [
@@ -99,6 +99,16 @@ heritageSites:
   ]
 image: "/content/images/region-3/central-luzon.jpg"
 imageCredit: ""
+storyImages:
+  crafts:
+    image: "/content/images/heritage/region-3-crafts.jpg"
+    credit: "Judgefloro (CC0)"
+  food:
+    image: "/content/images/heritage/region-3-food.jpg"
+    credit: "Ladyclai (CC BY-SA 4.0)"
+  heritage:
+    image: "/content/images/heritage/region-3-heritage.jpg"
+    credit: "Judgefloro (Public domain)"
 reviewed: false
 ---
 

@@ -17,8 +17,8 @@ festivals:
       month: 2,
       tagline: "The mountain city in bloom.",
       description: "Baguio's flower festival, whose name comes from a Kankanaey term for a season of blooming. Floral floats and street dancing mark the festival, which began as a celebration of the city's recovery after the 1990 earthquake.",
-      image: "/content/images/CAR/panagbenga.jpg",
-      credit: "",
+      image: "/content/images/festivals/panagbenga.jpg",
+      credit: "Wikipedia / Panagbenga Festival",
     }
   - {
       name: "Imbayah",
@@ -27,8 +27,8 @@ festivals:
       month: 4,
       tagline: "Ifugao heritage, shared.",
       description: "A celebration of Ifugao culture centered on Banaue, with traditional rituals, dances and games that honor the community's heritage and its rice-terrace landscape.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/imbayah.jpg",
+      credit: "Ranieljosecastaneda (CC BY-SA 4.0)",
     }
   - {
       name: "Lang-ay Festival",
@@ -37,8 +37,8 @@ festivals:
       month: 4,
       tagline: "Mountain Province, together.",
       description: "Mountain Province's celebration held in Bontoc, bringing together the province's Indigenous communities for cultural presentations, dances and gatherings.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/lang-ay-festival.jpg",
+      credit: "Ranieljosecastaneda (CC BY-SA 4.0)",
     }
   - {
       name: "Gotad ad Ifugao",
@@ -47,8 +47,8 @@ festivals:
       month: 4,
       tagline: "A province honors its people.",
       description: "Ifugao's provincial celebration, featuring traditional rituals, sports and cultural performances that honor the Ifugao people's customs and ancestral heritage.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/gotad-ad-ifugao.jpg",
+      credit: "P1898 (CC BY 4.0)",
     }
 tentativeFestivals: []
 food:
@@ -76,6 +76,16 @@ heritageSites:
   ]
 image: "/content/images/CAR/CAR.jpg"
 imageCredit: ""
+storyImages:
+  food:
+    image: "/content/images/heritage/car-food.jpg"
+    credit: "CNEcija12345 (CC BY-SA 4.0)"
+  crafts:
+    image: "/content/images/heritage/car-crafts.jpg"
+    credit: "David Stanley from Nanaimo, Canada (CC BY 2.0)"
+  heritage:
+    image: "/content/images/heritage/car-heritage.jpg"
+    credit: "CEphoto, Uwe Aranas (CC BY-SA 3.0)"
 reviewed: false
 ---
 

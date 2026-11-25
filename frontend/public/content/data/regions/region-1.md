@@ -15,8 +15,8 @@ festivals:
       month: 5,
       tagline: "Threads of creativity, stories of Vigan.",
       description: "Vigan's festival brings weaving and local arts into the spotlight. Its name refers to the beating of cotton pods to separate the fibers from the seeds, connecting the celebration to the city's textile traditions.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/viva-vigan-binatbatan-festival-of-the-arts.jpg",
+      credit: "Jasmin Hillary (CC BY-SA 3.0)",
     }
   - {
       name: "Pamulinawen Festival",
@@ -25,8 +25,8 @@ festivals:
       month: 2,
       tagline: "Laoag celebrates in faith and community.",
       description: "Laoag's February celebration brings together religious observances and cultural activities in honor of Saint William the Hermit, the city's patron saint.",
-      image: "/content/images/region-1/pamulinawen.jpg",
-      credit: "",
+      image: "/content/images/festivals/pamulinawen-festival.jpg",
+      credit: "Cloverfly09 (CC BY-SA 4.0)",
     }
   - {
       name: "Bangus Festival",
@@ -35,8 +35,8 @@ festivals:
       month: 4,
       tagline: "A city celebrates its signature catch.",
       description: "Dagupan's celebration puts bangus, or milkfish, at the center of community festivities, with food events and performances highlighting the city's connection to its fishing and aquaculture industries.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/bangus-festival.jpg",
+      credit: "ChristopherDVShots (CC BY-SA 4.0)",
     }
   - {
       name: "Pista'y Dayat",
@@ -45,8 +45,8 @@ festivals:
       month: 5,
       tagline: "A thanksgiving by the sea.",
       description: "Pangasinan's sea festival celebrates the province's coastal life and the bounty of its waters, bringing communities together through thanksgiving and public festivities.",
-      image: "",
-      credit: "",
+      image: \"/content/images/festivals/pistay-dayat.jpg\",
+      credit: \"VanessaKeithTalon01 (CC BY-SA 4.0)\",
     }
 tentativeFestivals: []
 food:
@@ -70,6 +70,16 @@ heritageSites:
   ]
 image: "/content/images/region-1/ilocos-region.webp"
 imageCredit: ""
+storyImages:
+  heritage:
+    image: "/content/images/heritage/region-1-heritage.jpg"
+    credit: "Ralff Nestor Nacor (CC BY-SA 4.0)"
+  crafts:
+    image: "/content/images/heritage/region-1-crafts.jpg"
+    credit: "P1898 (CC BY 4.0)"
+  food:
+    image: "/content/images/heritage/region-1-food.jpg"
+    credit: "Jessartcam (CC BY-SA 4.0)"
 reviewed: false
 ---
 

@@ -23,8 +23,8 @@ festivals:
       endMonth: 3,
       tagline: "A gathering with many voices.",
       description: "Held in Malaybalay, Kaamulan gathers Bukidnon's seven Indigenous tribes for rituals, dances and music. The name refers to a gathering of people.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/kaamulan-festival.jpg",
+      credit: "Theglennpalacio (CC BY-SA 4.0)",
     }
   - {
       name: "Lanzones Festival",
@@ -33,8 +33,8 @@ festivals:
       month: 10,
       tagline: "Camiguin's sweet harvest.",
       description: "Celebrates the lanzones harvest on Camiguin with street dancing, floats and thanksgiving for the island's best-known fruit.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/lanzones-festival.jpg",
+      credit: "Theglennpalacio (CC BY-SA 4.0)",
     }
   - {
       name: "Higalaay Festival",
@@ -43,8 +43,8 @@ festivals:
       month: 8,
       tagline: "Friendship by the river.",
       description: "Cagayan de Oro's fiesta celebration honoring St. Augustine, patron saint of the city, with street dancing and community gatherings. Its name means friend.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/higalaay-festival.jpg",
+      credit: "Mark Gio Amoguis (CC BY-SA 4.0)",
     }
   - {
       name: "Diyandi Festival",
@@ -53,8 +53,8 @@ festivals:
       month: 9,
       tagline: "Thanks, with rhythm.",
       description: "Iligan City's thanksgiving festival honoring its patron, St. Michael the Archangel, with street dancing and cultural presentations.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/diyandi-festival.jpg",
+      credit: "d. 1911 Emma Helen Blair (Public domain)",
     }
 tentativeFestivals:
   - {
@@ -63,8 +63,8 @@ tentativeFestivals:
       when: "",
       tagline: "A celebration in Cagayan de Oro.",
       description: "A festival in Cagayan de Oro celebrating the city's culture and community life. Dates should be confirmed with the city government.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/kuyamis-festival.jpg",
+      credit: "Vbars (CC BY-SA 4.0)",
     }
 food:
   [
@@ -88,6 +88,16 @@ heritageSites:
   ]
 image: "/content/images/region-10/northen-mindanao-region.jpg"
 imageCredit: ""
+storyImages:
+  crafts:
+    image: "/content/images/heritage/northern-mindanao-crafts.jpg"
+    credit: "P1898 (CC BY 4.0)"
+  food:
+    image: "/content/images/heritage/northern-mindanao-food.jpg"
+    credit: "Wikipedia / Pastel de Camiguín"
+  heritage:
+    image: "/content/images/heritage/northern-mindanao-heritage.jpg"
+    credit: "Ray in Manila (CC BY 2.0)"
 reviewed: false
 ---
 

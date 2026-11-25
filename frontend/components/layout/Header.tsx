@@ -53,10 +53,10 @@ export default function Header() {
           <Image
             src="/ktr-ph-logo.png"
             alt="Kultura PH logo"
-            width={40}
-            height={40}
+            width={24}
+            height={46}
             priority
-            className="shrink-0"
+            className="h-10 w-auto shrink-0 object-contain sm:h-11"
           />
           <div className="min-w-0">
             <h1 className="text-lg font-bold tracking-widest">KULTURA PH</h1>

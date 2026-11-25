@@ -25,8 +25,8 @@ festivals:
       endMonth: 4,
       tagline: "Masks, faith and mystery.",
       description: "A Lenten tradition in which participants wear masks and costumes of Roman soldiers, centered on the legend of Longinus, the centurion said to have pierced Christ's side. Observed in Boac, Mogpog and Gasan during Holy Week.",
-      image: "/content/images/mimaropa/moriones.jpg",
-      credit: "",
+      image: "/content/images/festivals/moriones-festival.jpg",
+      credit: "Wikipedia / Moriones Festival",
     }
   - {
       name: "Baragatan sa Palawan",
@@ -36,8 +36,8 @@ festivals:
       endMonth: 7,
       tagline: "Palawan, all together.",
       description: "A gathering in Puerto Princesa that brings together Palawan's towns and Indigenous communities for cultural shows, food and trade fairs.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/baragatan-sa-palawan.jpg",
+      credit: "JaneM.Bandao (CC0)",
     }
 tentativeFestivals:
   - {
@@ -46,8 +46,8 @@ tentativeFestivals:
       when: "",
       tagline: "Romblon's festive tradition.",
       description: "A festival in Romblon town celebrating the island province's culture with street dancing and community events. Dates should be confirmed with local organizers.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/biniray-festival.jpg",
+      credit: "d. 1911 Emma Helen Blair (Public domain)",
     }
   - {
       name: "Pandurucan Festival",
@@ -55,8 +55,8 @@ tentativeFestivals:
       when: "",
       tagline: "Calapan's festival of heritage.",
       description: "A festival in Calapan City celebrating the city's heritage with street dancing and cultural events. Dates should be confirmed with the city government.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/pandurucan-festival.jpg",
+      credit: "Juan Paolo Reyes (CC BY-SA 4.0)",
     }
 food:
   [
@@ -80,6 +80,16 @@ heritageSites:
   ]
 image: "/content/images/MIMAROPA/MIMAROPA.jpg"
 imageCredit: ""
+storyImages:
+  crafts:
+    image: "/content/images/heritage/mimaropa-crafts.jpg"
+    credit: "Wikimedia Commons (CC BY-SA 4.0)"
+  food:
+    image: "/content/images/heritage/mimaropa-food.jpg"
+    credit: "Wikipedia / Shipworm"
+  heritage:
+    image: "/content/images/heritage/mimaropa-heritage.jpg"
+    credit: "Wikipedia / Puerto Princesa Subterranean River National Park"
 reviewed: false
 ---
 

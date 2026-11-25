@@ -15,8 +15,8 @@ festivals:
       month: 1,
       tagline: "Devotion in motion.",
       description: "Rooted in devotion to the Santo Niño, Sinulog brings religious observance and street dance into Cebu City's public life. The familiar forward-and-back dance step is part of a celebration whose meaning extends beyond the parade.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/sinulog.jpg",
+      credit: "Wikipedia / Sinulog",
     }
   - {
       name: "Sandugo Festival",
@@ -25,8 +25,8 @@ festivals:
       month: 7,
       tagline: "Remembering a blood compact.",
       description: "Commemorates the 1565 blood compact between Datu Sikatuna and Miguel López de Legazpi, a landmark of Bohol's history, with parades, street dancing and cultural events.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/sandugo-festival.jpg",
+      credit: "Herbertkikoy (CC BY-SA 4.0)",
     }
 tentativeFestivals: []
 food:
@@ -49,6 +49,16 @@ heritageSites:
   ]
 image: "/content/images/region-7/central-visayas-region.jpg"
 imageCredit: ""
+storyImages:
+  crafts:
+    image: "/content/images/heritage/central-visayas-crafts.jpg"
+    credit: "suvajack (CC BY 2.0)"
+  food:
+    image: "/content/images/heritage/central-visayas-food.jpg"
+    credit: "Wide Awake! (CC BY 4.0)"
+  heritage:
+    image: "/content/images/heritage/central-visayas-heritage.jpg"
+    credit: "Helton B. Balairos (CC BY-SA 4.0)"
 reviewed: false
 ---
 

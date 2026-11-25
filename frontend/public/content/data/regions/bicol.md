@@ -28,8 +28,8 @@ festivals:
       month: 4,
       tagline: "Albay's beauty, in celebration.",
       description: "Named for the legend of Daragang Magayon, the beautiful maiden of Mayon Volcano, this Albay festival celebrates the province's culture, cuisine and natural beauty with parades and community events.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/magayon-festival.jpg",
+      credit: "Department of Tourism Region V Office (Public domain)",
     }
   - {
       name: "Peñafrancia Festival",
@@ -38,8 +38,8 @@ festivals:
       month: 9,
       tagline: "Devotion that fills the river.",
       description: "A celebration of devotion to Our Lady of Peñafrancia, patroness of the Bicol Region. Its highlights are the Traslacion and the fluvial procession along the Naga River, which draw pilgrims from across the region.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/peñafrancia-festival.jpg",
+      credit: "RommelVelasco (CC BY-SA 3.0)",
     }
   - {
       name: "Rodeo Masbateño",
@@ -49,8 +49,8 @@ festivals:
       endMonth: 5,
       tagline: "Cowboy country, celebrated.",
       description: "Held in Masbate, long known as cattle country, this festival gathers cowboys and ranchers for rodeo events, a parade and a showcase of the island's ranching heritage.",
-      image: "",
-      credit: "",
+      image: \"/content/images/festivals/rodeo-masbateño.jpg\",
+      credit: \"The original uploader was Ringer at Central Bikol  (CC BY-SA 3.0)\",
     }
 tentativeFestivals:
   - {
@@ -59,8 +59,8 @@ tentativeFestivals:
       when: "",
       tagline: "A city's joyful gathering.",
       description: "Sorsogon City's festival of thanksgiving and community celebration, with street performances and a showcase of local culture and products. Dates should be confirmed with the city government each year.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/kasanggayahan-festival.jpg",
+      credit: "Dandy1022 (CC BY-SA 4.0)",
     }
   - {
       name: "Abaca Festival",
@@ -68,8 +68,8 @@ tentativeFestivals:
       when: "",
       tagline: "Honoring the island's fiber.",
       description: "Celebrates abaca, the fiber crop that sustains many Catanduanes households and the island's handicraft industry. Dates should be confirmed with local organizers.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/abaca-festival.jpg",
+      credit: "Ranieljosecastaneda (CC BY-SA 4.0)",
     }
 food:
   [
@@ -91,6 +91,16 @@ heritageSites:
   ]
 image: "/content/images/region-5/bicol-region.jpg"
 imageCredit: ""
+storyImages:
+  crafts:
+    image: "/content/images/heritage/bicol-crafts.jpg"
+    credit: "P1898 (CC BY 4.0)"
+  food:
+    image: "/content/images/heritage/bicol-food.jpg"
+    credit: "Wikipedia / Bicol express"
+  heritage:
+    image: "/content/images/heritage/bicol-heritage.jpg"
+    credit: "Fabio Achilli from Milano, Italy (CC BY 2.0)"
 reviewed: false
 ---
 

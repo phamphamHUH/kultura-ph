@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import { getStory, getStories, CATEGORY_LABELS } from "@/public/lib/stories";
@@ -46,6 +47,23 @@ export default async function StoryPage({
         </p>
         <h1 className="text-4xl font-bold">{story.title}</h1>
         <p className="text-lg font-semibold">{story.summary}</p>
+        {story.image?.trim() && (
+          <div className="my-2 flex flex-col gap-2">
+            <div className="relative aspect-16/9 w-full overflow-hidden rounded-lg bg-gray-200">
+              <Image
+                src={story.image}
+                alt={story.title}
+                fill
+                priority
+                sizes="(min-width: 1024px) 800px, 100vw"
+                className="object-cover"
+              />
+            </div>
+            {story.credit && (
+              <p className="text-[10px] text-gray-500">Photo: {story.credit}</p>
+            )}
+          </div>
+        )}
         {story.paragraphs.map((p, i) => (
           <p key={i} className="text-sm leading-7 text-gray-600">
             <Inline text={p} />

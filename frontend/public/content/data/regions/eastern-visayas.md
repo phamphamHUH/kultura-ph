@@ -23,8 +23,8 @@ festivals:
       month: 6,
       tagline: "Painted warriors, remembered.",
       description: "Tacloban's festival of body-painted dancers recalls the tattooed Pintados of the pre-colonial Visayas, with ritual dance, drumming and a street parade.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/pintados-kasadyaan.jpg",
+      credit: "Wikipedia / Pintados-Kasadyaan",
     }
   - {
       name: "Sangyaw Festival",
@@ -33,8 +33,8 @@ festivals:
       month: 6,
       tagline: "A call to celebrate.",
       description: "Tacloban's festival of street dancing and drumming, held alongside the Pintados-Kasadyaan during the city's fiesta season. Its name refers to announcing the celebration.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/sangyaw-festival.jpg",
+      credit: "JinJian (talk) (CC BY-SA 3.0)",
     }
 tentativeFestivals:
   - {
@@ -43,8 +43,8 @@ tentativeFestivals:
       when: "",
       tagline: "Thanksgiving in Southern Leyte.",
       description: "Southern Leyte's festival celebrating the province's culture and giving thanks, with street dancing and community events. Dates should be confirmed with the provincial government.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/pasaka-festival.jpg",
+      credit: "Jophel Botero Ybiosa (CC BY-SA 4.0)",
     }
 food: ["Binagol", "Moron", "Kinilaw", "Pili nut products"]
 crafts: ["Tikog mat weaving (Basey, Samar)", "Basey woven crafts"]
@@ -58,6 +58,16 @@ heritageSites:
   ]
 image: "/content/images/region-8/eastern-visayas-region.avif"
 imageCredit: ""
+storyImages:
+  crafts:
+    image: "/content/images/heritage/eastern-visayas-crafts.jpg"
+    credit: "Lawrence Ruiz (CC BY-SA 4.0)"
+  food:
+    image: "/content/images/heritage/eastern-visayas-food.jpg"
+    credit: "Judgefloro (Public domain)"
+  heritage:
+    image: "/content/images/heritage/eastern-visayas-heritage.jpg"
+    credit: "Wikipedia / San Juanico Bridge"
 reviewed: false
 ---
 

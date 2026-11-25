@@ -17,8 +17,8 @@ festivals:
       month: 10,
       tagline: "The city that smiles.",
       description: "Bacolod's festival of smiling masks and street dancing. It began in 1980 as a way for the community to lift its spirits in a difficult time and has become one of the country's best-known festivals.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/masskara-festival.jpg",
+      credit: "Wikipedia / MassKara Festival",
     }
   - {
       name: "Panaad sa Negros Festival",
@@ -27,8 +27,8 @@ festivals:
       month: 4,
       tagline: "A promise kept.",
       description: "A provincial festival in Negros Occidental whose name refers to a vow or promise, with parades, exhibits and cultural events highlighting the province's communities and products.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/panaad-sa-negros-festival.jpg",
+      credit: "Wikipedia / Panaad sa Negros Festival",
     }
   - {
       name: "Buglasan Festival",
@@ -37,8 +37,8 @@ festivals:
       month: 10,
       tagline: "Negros Oriental, on display.",
       description: "Negros Oriental's festival of street dancing, exhibits and trade fairs, showcasing the province's towns, products and culture.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/buglasan-festival.jpg",
+      credit: "Carampatola (CC BY-SA 4.0)",
     }
   - {
       name: "Sandurot Festival",
@@ -47,8 +47,8 @@ festivals:
       month: 9,
       tagline: "Hospitality, Dumaguete-style.",
       description: "Dumaguete City's festival of street dancing and community celebration during the city's fiesta season. Its name evokes hospitality and fellowship.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/sandurot-festival.jpg",
+      credit: "Jumzchino (CC BY-SA 4.0)",
     }
 tentativeFestivals: []
 food:
@@ -70,6 +70,16 @@ heritageSites:
   ]
 image: "/content/images/NIR/NIR.jpg"
 imageCredit: ""
+storyImages:
+  crafts:
+    image: "/content/images/heritage/negros-island-region-crafts.jpg"
+    credit: "Michol Sanchez (CC BY-SA 4.0)"
+  food:
+    image: "/content/images/heritage/negros-island-region-food.jpg"
+    credit: "Zarate123 (CC BY-SA 4.0)"
+  heritage:
+    image: "/content/images/heritage/negros-island-region-heritage.jpg"
+    credit: "Klienneeco (CC BY-SA 4.0)"
 reviewed: false
 ---
 

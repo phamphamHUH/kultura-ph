@@ -22,8 +22,8 @@ festivals:
       month: 10,
       tagline: "The city's beautiful fiesta.",
       description: "Zamboanga City's festival honors Our Lady of the Pilar, the city's patroness, with a fluvial procession, devotions at Fort Pilar and a showcase of the city's Chavacano culture and cuisine.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/hermosa-festival-fiesta-pilar.jpg",
+      credit: "Robot8A (CC BY-SA 4.0)",
     }
   - {
       name: "Regatta de Zamboanga",
@@ -32,8 +32,8 @@ festivals:
       month: 10,
       tagline: "Vintas on the water.",
       description: "Zamboanga City's regatta features colorful vinta sailboats racing on the waters, a highlight of the city's October festivities.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/regatta-de-zamboanga.jpg",
+      credit: "Bro. Jeffrey Pioquinto, SJ (CC BY 2.0)",
     }
 tentativeFestivals:
   - {
@@ -42,8 +42,8 @@ tentativeFestivals:
       when: "",
       tagline: "Thanksgiving through gongs and dance.",
       description: "A Subanen thanksgiving ritual performed on a raised platform, with drums, gongs and communal dancing in honor of ancestors and spirits. Dates depend on the community holding the ritual.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/buklog-subanen-thanksgiving-ritual.jpg",
+      credit: "Wikimedia Commons (CC BY-SA 4.0)",
     }
   - {
       name: "Lami-Lamihan Festival",
@@ -51,8 +51,8 @@ tentativeFestivals:
       when: "",
       tagline: "Sulu's gathering.",
       description: "Jolo's festival celebrating Sulu's communities with cultural presentations and community events. Dates should be confirmed with local organizers.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/lami-lamihan-festival.jpg",
+      credit: "Skyeraeder (Public domain)",
     }
 food:
   [
@@ -79,6 +79,16 @@ heritageSites:
   ]
 image: "/content/images/region-9/zamboanga-peninsula-region.jpg"
 imageCredit: ""
+storyImages:
+  food:
+    image: "/content/images/heritage/zamboanga-peninsula-food.jpg"
+    credit: "Anak 1 at en.wikipedia (Public domain)"
+  crafts:
+    image: "/content/images/heritage/zamboanga-peninsula-crafts.jpg"
+    credit: "Fayziii (CC0)"
+  heritage:
+    image: "/content/images/heritage/zamboanga-peninsula-heritage.jpg"
+    credit: "Dennison Uy from Makati, Philippines (CC BY-SA 3.0)"
 reviewed: false
 ---
 

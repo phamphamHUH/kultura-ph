@@ -1,0 +1,928 @@
+{
+  "Sinulog::Cebu City::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Viva_for_Ni%C3%B1o.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 3575,
+    "height": 2558,
+    "credit": "Wikipedia / Sinulog",
+    "title": "Sinulog",
+    "source": "Wikipedia"
+  },
+  "Hariraya Eid'l Fitr::Region-wide::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/President_Rodrigo_Duterte_interacts_with_participants_of_the_Mindanao_Hariraya_Eid%E2%80%99l_Fitr_1.jpg",
+    "width": 3600,
+    "height": 2354,
+    "aspect": 1.5293118096856415,
+    "credit": "PPD / Cado Niña (Public domain)",
+    "title": "File:President Rodrigo Duterte interacts with participants of the Mindanao Hariraya Eid’l Fitr 1.jpg",
+    "source": "Wikimedia Commons",
+    "score": 5600
+  },
+  "Maulid un-Nabi::Region-wide::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Maulid_programme_at_Kuttassery%2C_Elankur.jpg",
+    "width": 4608,
+    "height": 3456,
+    "aspect": 1.3333333333333333,
+    "credit": "Kamarudheenelankur (CC BY-SA 4.0)",
+    "title": "File:Maulid programme at Kuttassery, Elankur.jpg",
+    "source": "Wikimedia Commons",
+    "score": 6608
+  },
+  "Okir wood and metal carving::Bangsamoro Autonomous Region in Muslim Mindanao::crafts": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Kampilan_moro_sword_with_sheath.jpg",
+    "width": 910,
+    "height": 740,
+    "aspect": 1.2297297297297298,
+    "credit": "Filhistorydotcom &lt;http://filhistory.com&gt; (CC BY-SA 3.0)",
+    "title": "File:Kampilan moro sword with sheath.jpg",
+    "source": "Wikimedia Commons",
+    "score": 2910
+  },
+  "Pastil Maguindanao::Bangsamoro Autonomous Region in Muslim Mindanao::food": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Pastil_%28Philippines%29_01.jpg",
+    "width": 4032,
+    "height": 3024,
+    "aspect": 1.3333333333333333,
+    "credit": "Obsidian Soul (CC0)",
+    "title": "File:Pastil (Philippines) 01.jpg",
+    "source": "Wikimedia Commons",
+    "score": 6032
+  },
+  "Magayon Festival::Albay::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Barbie_Imperial_-_Magayon_Festival_2024_Grand_Santacruzan.jpg",
+    "width": 2048,
+    "height": 1185,
+    "aspect": 1.7282700421940929,
+    "credit": "Department of Tourism Region V Office (Public domain)",
+    "title": "File:Barbie Imperial - Magayon Festival 2024 Grand Santacruzan.jpg",
+    "source": "Wikimedia Commons",
+    "score": 4048
+  },
+  "Peñafrancia Festival::Naga City, Camarines Sur::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/The_Facade_of_the_Naga_Metropolitan_Cathedral.JPG",
+    "width": 5184,
+    "height": 3456,
+    "aspect": 1.5,
+    "credit": "RommelVelasco (CC BY-SA 3.0)",
+    "title": "File:The Facade of the Naga Metropolitan Cathedral.JPG",
+    "source": "Wikimedia Commons",
+    "score": 7184
+  },
+  "Abaca Festival::Virac, Catanduanes::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Tinalak_Festival_of_South_Cotabato.jpg",
+    "width": 4096,
+    "height": 2731,
+    "aspect": 1.4998169168802635,
+    "credit": "Ranieljosecastaneda (CC BY-SA 4.0)",
+    "title": "File:Tinalak Festival of South Cotabato.jpg",
+    "source": "Wikimedia Commons",
+    "score": 6096
+  },
+  "Abaca handicraft Bicol::Bicol Region::crafts": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Catanduanes_cultural_crafts_October_11_2026_MSME_indigenous_heritage_10.jpg",
+    "width": 1833,
+    "height": 2109,
+    "aspect": 0.8691322901849218,
+    "credit": "P1898 (CC BY 4.0)",
+    "title": "File:Catanduanes cultural crafts October 11 2026 MSME indigenous heritage 10.jpg",
+    "source": "Wikimedia Commons",
+    "score": 1833
+  },
+  "Bicol Express::Bicol Region::food": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Bicol_Express.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 551,
+    "height": 413,
+    "aspect": 1.334140435835351,
+    "credit": "Wikipedia / Bicol express",
+    "title": "Bicol express",
+    "source": "Wikipedia"
+  },
+  "Mayon Volcano::Bicol Region::heritage": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Mount_Mayon_Cagsawa_field_view_close-up_%28Busay%2C_Daraga%2C_Albay%3B_04-21-2023%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 3552,
+    "height": 2664,
+    "aspect": 1.3333333333333333,
+    "credit": "Wikipedia / Mayon",
+    "title": "Mayon",
+    "source": "Wikipedia"
+  },
+  "Pahiyas Festival::Lucban, Quezon::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Lucban_Poblacion_Quezon_Avenue_top_view_%28Lucban%2C_Quezon%3B_05-15-2023%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 3552,
+    "height": 2664,
+    "aspect": 1.3333333333333333,
+    "credit": "Wikipedia / Lucban",
+    "title": "Lucban",
+    "source": "Wikipedia"
+  },
+  "Hariraya Eid'l Adha::Region-wide::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/3501Poblacion_Baliuag_Bulacan_during_the_2020_coronavirus_pandemic_04.jpg",
+    "width": 4608,
+    "height": 3456,
+    "aspect": 1.3333333333333333,
+    "credit": "Judgefloro (CC0)",
+    "title": "File:3501Poblacion Baliuag Bulacan during the 2020 coronavirus pandemic 04.jpg",
+    "source": "Wikimedia Commons",
+    "score": 6608
+  },
+  "Okir wood carving Maranao::Bangsamoro Autonomous Region in Muslim Mindanao::crafts": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Mindanao_craftsmanship_October_4_2026_%E2%80%9CLikha_Ko%2C_Lahi_Ko%E2%80%9D_04.jpg",
+    "width": 4096,
+    "height": 3072,
+    "aspect": 1.3333333333333333,
+    "credit": "P1898 (CC BY 4.0)",
+    "title": "File:Mindanao craftsmanship October 4 2026 “Likha Ko, Lahi Ko” 04.jpg",
+    "source": "Wikimedia Commons",
+    "score": 6096
+  },
+  "Higantes Festival::Angono, Rizal::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Higantes_of_Angono%2C_Rizal.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 3714,
+    "height": 3072,
+    "aspect": 1.208984375,
+    "credit": "Wikipedia / Higantes Festival",
+    "title": "Higantes Festival",
+    "source": "Wikipedia"
+  },
+  "Torogan house Maranao::Bangsamoro Autonomous Region in Muslim Mindanao::heritage": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Panolong.jpg",
+    "width": 3008,
+    "height": 2000,
+    "aspect": 1.504,
+    "credit": "Nikka Cunom (CC BY 2.0)",
+    "title": "File:Panolong.jpg",
+    "source": "Wikimedia Commons",
+    "score": 5008
+  },
+  "Turumba Festival::Pakil, Laguna::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/4380Ba%C3%B1o%2C_Pakil%2C_Laguna_24.jpg",
+    "width": 4608,
+    "height": 3456,
+    "aspect": 1.3333333333333333,
+    "credit": "Judgefloro (CC0)",
+    "title": "File:4380Baño, Pakil, Laguna 24.jpg",
+    "source": "Wikimedia Commons",
+    "score": 6608
+  },
+  "Cagsawa Ruins Mayon Volcano::Bicol Region::heritage": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Cagsawa_Ruins%2C_Legazpi%2C_Philippines_-_Flickr.jpg",
+    "width": 4608,
+    "height": 3456,
+    "aspect": 1.3333333333333333,
+    "credit": "Fabio Achilli from Milano, Italy (CC BY 2.0)",
+    "title": "File:Cagsawa Ruins, Legazpi, Philippines - Flickr.jpg",
+    "source": "Wikimedia Commons",
+    "score": 6608
+  },
+  "Anilag Festival::Laguna::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Munisipal_Hall_of_Sta._Cruz.jpg",
+    "width": 3600,
+    "height": 2400,
+    "aspect": 1.5,
+    "credit": "Richmond Chi (CC BY-SA 4.0)",
+    "title": "File:Munisipal Hall of Sta. Cruz.jpg",
+    "source": "Wikimedia Commons",
+    "score": 5600
+  },
+  "Panagbenga::Baguio City::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Panagbenga_Street_Parade_003_2023-02-25.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 2448,
+    "height": 1836,
+    "aspect": 1.3333333333333333,
+    "credit": "Wikipedia / Panagbenga Festival",
+    "title": "Panagbenga Festival",
+    "source": "Wikipedia"
+  },
+  "Taal Heritage Town Basilica::CALABARZON::heritage": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Ylagan%E2%80%93de_la_Rosa_Ancestral_House_fa%C3%A7ade_from_the_northeast.jpg",
+    "width": 3456,
+    "height": 4608,
+    "aspect": 0.75,
+    "credit": "Ramon FVelasquez (CC BY-SA 3.0)",
+    "title": "File:Ylagan–de la Rosa Ancestral House façade from the northeast.jpg",
+    "source": "Wikimedia Commons",
+    "score": 3456
+  },
+  "Imbayah::Ifugao::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Wooden_Scooter_Riders.jpg",
+    "width": 3600,
+    "height": 2400,
+    "aspect": 1.5,
+    "credit": "Ranieljosecastaneda (CC BY-SA 4.0)",
+    "title": "File:Wooden Scooter Riders.jpg",
+    "source": "Wikimedia Commons",
+    "score": 5600
+  },
+  "Lang-ay Festival::Mountain Province::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/The_Igorots_of_Baguio.jpg",
+    "width": 3872,
+    "height": 2592,
+    "aspect": 1.4938271604938271,
+    "credit": "Ranieljosecastaneda (CC BY-SA 4.0)",
+    "title": "File:The Igorots of Baguio.jpg",
+    "source": "Wikimedia Commons",
+    "score": 5872
+  },
+  "Ifugao bulul carving::Cordillera Administrative Region::crafts": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Souvenir_Shop_%2847954689367%29.jpg",
+    "width": 1024,
+    "height": 768,
+    "aspect": 1.3333333333333333,
+    "credit": "David Stanley from Nanaimo, Canada (CC BY 2.0)",
+    "title": "File:Souvenir Shop (47954689367).jpg",
+    "source": "Wikimedia Commons",
+    "score": 3024
+  },
+  "Batad Rice Terraces Banaue::Cordillera Administrative Region::heritage": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Banaue_Philippines_Banaue-Rice-Terraces-01.jpg",
+    "width": 4272,
+    "height": 2848,
+    "aspect": 1.5,
+    "credit": "CEphoto, Uwe Aranas (CC BY-SA 3.0)",
+    "title": "File:Banaue Philippines Banaue-Rice-Terraces-01.jpg",
+    "source": "Wikimedia Commons",
+    "score": 6272
+  },
+  "Sillag Festival::Surigao City::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Philippine_Army_Cadillac_Gage.jpg",
+    "width": 4592,
+    "height": 3056,
+    "aspect": 1.5026178010471205,
+    "credit": "Lawrence Ruiz (CC BY-SA 4.0)",
+    "title": "File:Philippine Army Cadillac Gage.jpg",
+    "source": "Wikimedia Commons",
+    "score": 6592
+  },
+  "Naliyagan Festival::Agusan del Sur::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Manny_Pi%C3%B1ol_with_Governor_Plaza_of_Agusan_del_Sur_%282017%29.jpg",
+    "width": 2048,
+    "height": 1365,
+    "aspect": 1.5003663003663004,
+    "credit": "Darius Mangampo/DA-AFID (Public domain)",
+    "title": "File:Manny Piñol with Governor Plaza of Agusan del Sur (2017).jpg",
+    "source": "Wikimedia Commons",
+    "score": 4048
+  },
+  "Balangay Festival::Butuan City::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Libertad_Sports_Complex_%28Butuan_Sports_Complex%29.jpg",
+    "width": 6000,
+    "height": 3376,
+    "aspect": 1.7772511848341233,
+    "credit": "Lucky Ambago Purok Otso (CC BY-SA 4.0)",
+    "title": "File:Libertad Sports Complex (Butuan Sports Complex).jpg",
+    "source": "Wikimedia Commons",
+    "score": 8000
+  },
+  "Sandugo Festival::Tagbilaran, Bohol::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Sandugo_01.jpg",
+    "width": 5184,
+    "height": 3456,
+    "aspect": 1.5,
+    "credit": "Herbertkikoy (CC BY-SA 4.0)",
+    "title": "File:Sandugo 01.jpg",
+    "source": "Wikimedia Commons"
+  },
+  "Balangay boat Butuan::Caraga::heritage": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Balangay_sa_Kalsada_-_panoramio.jpg",
+    "width": 3648,
+    "height": 2736,
+    "aspect": 1.3333333333333333,
+    "credit": "kbraner (CC BY-SA 3.0)",
+    "title": "File:Balangay sa Kalsada - panoramio.jpg",
+    "source": "Wikimedia Commons",
+    "score": 5648
+  },
+  "Cebu lechon::Central Visayas::food": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Ayers_Lechon_at_the_Mactan-Cebu_International_Airport_%2801%29_%282025-03-02%29.jpg",
+    "width": 4608,
+    "height": 3072,
+    "aspect": 1.5,
+    "credit": "Wide Awake! (CC BY 4.0)",
+    "title": "File:Ayers Lechon at the Mactan-Cebu International Airport (01) (2025-03-02).jpg",
+    "source": "Wikimedia Commons",
+    "score": 6608
+  },
+  "Durian fruit Davao::Davao Region::food": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Durian-Shaped_Tausug_Brass_Vase.jpg",
+    "width": 2104,
+    "height": 1184,
+    "aspect": 1.777027027027027,
+    "credit": "PAULIX04 (CC BY-SA 4.0)",
+    "title": "File:Durian-Shaped Tausug Brass Vase.jpg",
+    "source": "Wikimedia Commons",
+    "score": 4104
+  },
+  "Mount Apo Davao::Davao Region::heritage": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Apo_Volcanic_Complex_Region_Geology.jpg",
+    "width": 2104,
+    "height": 1184,
+    "aspect": 1.777027027027027,
+    "credit": "PAULIX04 (CC BY-SA 4.0)",
+    "title": "File:Apo Volcanic Complex Region Geology.jpg",
+    "source": "Wikimedia Commons",
+    "score": 4104
+  },
+  "Mandaya Dagmay weaving Davao::Davao Region::crafts": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Dagmay_abaca_textile_Samporonia_Madanlo_Caraga_Davao_OrientalA.jpg",
+    "width": 2351,
+    "height": 4082,
+    "aspect": 0.5759431651151397,
+    "credit": "Wikimedia Commons (CC BY-SA 4.0)",
+    "title": "File:Dagmay abaca textile Samporonia Madanlo Caraga Davao OrientalA.jpg",
+    "source": "Wikimedia Commons",
+    "score": 2351
+  },
+  "Basilica del Santo Nino Cebu::Central Visayas::heritage": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/The_Oldest_Church_in_The_Philippines.jpg",
+    "width": 4088,
+    "height": 2305,
+    "aspect": 1.7735357917570498,
+    "credit": "Helton B. Balairos (CC BY-SA 4.0)",
+    "title": "File:The Oldest Church in The Philippines.jpg",
+    "source": "Wikimedia Commons",
+    "score": 6088
+  },
+  "Sangyaw Festival::Tacloban City::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/CARACOLMAKATI.JPG",
+    "width": 3072,
+    "height": 2304,
+    "aspect": 1.3333333333333333,
+    "credit": "JinJian (talk) (CC BY-SA 3.0)",
+    "title": "File:CARACOLMAKATI.JPG",
+    "source": "Wikimedia Commons",
+    "score": 5072
+  },
+  "Araw ng Dabaw::Davao City::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Sayaw_sa_Dalan_%28Street_Dancing%29_2014.jpg",
+    "width": 5616,
+    "height": 3744,
+    "aspect": 1.5,
+    "credit": "Bro. Jeffrey Pioquinto, SJ (CC BY 2.0)",
+    "title": "File:Sayaw sa Dalan (Street Dancing) 2014.jpg",
+    "source": "Wikimedia Commons",
+    "score": 7616
+  },
+  "San Juanico Bridge::Eastern Visayas::heritage": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/San_Juanico_Bridge_main_span_close-up_%28Tacloban%2C_Leyte%3B_09-08-2022%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 3552,
+    "height": 2664,
+    "aspect": 1.3333333333333333,
+    "credit": "Wikipedia / San Juanico Bridge",
+    "title": "San Juanico Bridge",
+    "source": "Wikipedia"
+  },
+  "Pintados-Kasadyaan::Tacloban City::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/BUYOGAN.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 3072,
+    "height": 2304,
+    "aspect": 1.3333333333333333,
+    "credit": "Wikipedia / Pintados-Kasadyaan",
+    "title": "Pintados-Kasadyaan",
+    "source": "Wikipedia"
+  },
+  "Basey mat weaving Samar::Eastern Visayas::crafts": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Mat_%28Banig%29_Weaving_at_Saob_Cave_in_Brgy._Basiao%2C_Basey%2C_Samar.JPG",
+    "width": 4608,
+    "height": 3456,
+    "aspect": 1.3333333333333333,
+    "credit": "Lawrence Ruiz (CC BY-SA 4.0)",
+    "title": "File:Mat (Banig) Weaving at Saob Cave in Brgy. Basiao, Basey, Samar.JPG",
+    "source": "Wikimedia Commons",
+    "score": 6608
+  },
+  "Moriones Festival::Boac, Mogpog and Gasan, Marinduque::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Moriones_soldier.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 3267,
+    "height": 4900,
+    "aspect": 0.666734693877551,
+    "credit": "Wikipedia / Moriones Festival",
+    "title": "Moriones Festival",
+    "source": "Wikipedia"
+  },
+  "Binagol Leyte::Eastern Visayas::food": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/09966_jfCenterpoint_SaveMore_Market_Tungkong_Mangga_San_Jose_del_Monte_City_Bulacanfvf_12.JPG",
+    "width": 4608,
+    "height": 3456,
+    "aspect": 1.3333333333333333,
+    "credit": "Judgefloro (Public domain)",
+    "title": "File:09966 jfCenterpoint SaveMore Market Tungkong Mangga San Jose del Monte City Bulacanfvf 12.JPG",
+    "source": "Wikimedia Commons",
+    "score": 6608
+  },
+  "Pasaka Festival::Southern Leyte::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/FASHION_OF_PASAKA_FESTIVAL.jpg",
+    "width": 4500,
+    "height": 2869,
+    "aspect": 1.5684907633321714,
+    "credit": "Jophel Botero Ybiosa (CC BY-SA 4.0)",
+    "title": "File:FASHION OF PASAKA FESTIVAL.jpg",
+    "source": "Wikimedia Commons",
+    "score": 6500
+  },
+  "Puerto Princesa Subterranean River::MIMAROPA::heritage": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Puerto-Princesa_Subterranean_River_National_Park-112012.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 3008,
+    "height": 2000,
+    "aspect": 1.504,
+    "credit": "Wikipedia / Puerto Princesa Subterranean River National Park",
+    "title": "Puerto Princesa Subterranean River National Park",
+    "source": "Wikipedia"
+  },
+  "Santacruzan::Citywide::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flores_de_Mayo_Ilocos.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 1687,
+    "height": 1209,
+    "aspect": 1.3953680727874276,
+    "credit": "Wikipedia / Flores de Mayo",
+    "title": "Flores de Mayo",
+    "source": "Wikipedia"
+  },
+  "Aliwan Fiesta::Manila::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/ATI_Warrior_of_Dinagysng_Festial.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 3600,
+    "height": 2400,
+    "aspect": 1.5,
+    "credit": "Wikipedia / Aliwan Fiesta",
+    "title": "Aliwan Fiesta",
+    "source": "Wikipedia"
+  },
+  "Philippine adobo::National Capital Region::food": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Adobo_DSCF4391.jpg",
+    "width": 6000,
+    "height": 4000,
+    "aspect": 1.5,
+    "credit": "Joy D. Ganaden (CC BY-SA 4.0)",
+    "title": "File:Adobo DSCF4391.jpg",
+    "source": "Wikimedia Commons"
+  },
+  "Jeepney art Manila::National Capital Region::crafts": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Jeepney_%2817106386700%29.jpg",
+    "width": 5520,
+    "height": 3680,
+    "aspect": 1.5,
+    "credit": "Jorge Láscar from Melbourne, Australia (CC BY 2.0)",
+    "title": "File:Jeepney (17106386700).jpg",
+    "source": "Wikimedia Commons",
+    "score": 7520
+  },
+  "Panaad sa Negros Festival::Negros Occidental::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Pannad_Festival_on_April_5th%2C_2014.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 3200,
+    "height": 1920,
+    "aspect": 1.6666666666666667,
+    "credit": "Wikipedia / Panaad sa Negros Festival",
+    "title": "Panaad sa Negros Festival",
+    "source": "Wikipedia"
+  },
+  "MassKara Festival::Bacolod City::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/CVP_4421.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 1453,
+    "height": 968,
+    "aspect": 1.5010330578512396,
+    "credit": "Wikipedia / MassKara Festival",
+    "title": "MassKara Festival",
+    "source": "Wikipedia"
+  },
+  "Traslacion of the Black Nazarene::Quiapo, Manila::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Traslacion_-_National_Museum.jpg",
+    "width": 3600,
+    "height": 2400,
+    "aspect": 1.5,
+    "credit": "Richmond Chi (CC BY-SA 4.0)",
+    "title": "File:Traslacion - National Museum.jpg",
+    "source": "Wikimedia Commons",
+    "score": 5600
+  },
+  "San Agustin Church Intramuros::National Capital Region::heritage": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Museo_de_la_iglesia_de_San_Agust%C3%ADn%2C_Manila%2C_Filipinas%2C_2023-08-27%2C_DD_82-84_HDR.jpg",
+    "width": 8458,
+    "height": 5639,
+    "aspect": 1.499911331796418,
+    "credit": "Diego Delso (CC BY-SA 4.0)",
+    "title": "File:Museo de la iglesia de San Agustín, Manila, Filipinas, 2023-08-27, DD 82-84 HDR.jpg",
+    "source": "Wikimedia Commons",
+    "score": 10458
+  },
+  "Buglasan Festival::Negros Oriental::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Hudyaka_Harvest.jpg",
+    "width": 12000,
+    "height": 8000,
+    "aspect": 1.5,
+    "credit": "Carampatola (CC BY-SA 4.0)",
+    "title": "File:Hudyaka Harvest.jpg",
+    "source": "Wikimedia Commons",
+    "score": 14000
+  },
+  "Sandurot Festival::Dumaguete City::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Sandurot_Festival_42.jpg",
+    "width": 5278,
+    "height": 3519,
+    "aspect": 1.499857914180165,
+    "credit": "Jumzchino (CC BY-SA 4.0)",
+    "title": "File:Sandurot Festival 42.jpg",
+    "source": "Wikimedia Commons",
+    "score": 7278
+  },
+  "Chicken inasal Bacolod::Negros Island Region::food": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Bacolod_Chicken_Inasal_restaurants_in_the_Philippines.jpg",
+    "width": 5184,
+    "height": 3888,
+    "aspect": 1.3333333333333333,
+    "credit": "Zarate123 (CC BY-SA 4.0)",
+    "title": "File:Bacolod Chicken Inasal restaurants in the Philippines.jpg",
+    "source": "Wikimedia Commons",
+    "score": 7184
+  },
+  "Kaamulan Festival::Malaybalay, Bukidnon::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Kaamulan_Festival_1.jpg",
+    "width": 6000,
+    "height": 4000,
+    "aspect": 1.5,
+    "credit": "Theglennpalacio (CC BY-SA 4.0)",
+    "title": "File:Kaamulan Festival 1.jpg",
+    "source": "Wikimedia Commons",
+    "score": 8000
+  },
+  "The Ruins Talisay::Negros Island Region::heritage": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Ruins_Mansion.jpg",
+    "width": 5831,
+    "height": 3887,
+    "aspect": 1.500128633907898,
+    "credit": "Klienneeco (CC BY-SA 4.0)",
+    "title": "File:Ruins Mansion.jpg",
+    "source": "Wikimedia Commons",
+    "score": 7831
+  },
+  "Lanzones Festival::Camiguin::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Lanzones_Festival_-_Camiguin.jpg",
+    "width": 3600,
+    "height": 2400,
+    "aspect": 1.5,
+    "credit": "Theglennpalacio (CC BY-SA 4.0)",
+    "title": "File:Lanzones Festival - Camiguin.jpg",
+    "source": "Wikimedia Commons",
+    "score": 5600
+  },
+  "Higalaay Festival::Cagayan de Oro::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Higalaay_Kagayan_Festival_2014.jpg",
+    "width": 4983,
+    "height": 3154,
+    "aspect": 1.5798985415345592,
+    "credit": "Mark Gio Amoguis (CC BY-SA 4.0)",
+    "title": "File:Higalaay Kagayan Festival 2014.jpg",
+    "source": "Wikimedia Commons"
+  },
+  "Kuyamis Festival::Cagayan de Oro::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Kuyamis_Festival.jpg",
+    "width": 2048,
+    "height": 1366,
+    "aspect": 1.499267935578331,
+    "credit": "Vbars (CC BY-SA 4.0)",
+    "title": "File:Kuyamis Festival.jpg",
+    "source": "Wikimedia Commons",
+    "score": 4048
+  },
+  "Pastel de Camiguin::Northern Mindanao::food": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Pastel_de_camiguin.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 2560,
+    "height": 1920,
+    "aspect": 1.3333333333333333,
+    "credit": "Wikipedia / Pastel de Camiguín",
+    "title": "Pastel de Camiguín",
+    "source": "Wikipedia"
+  },
+  "Camiguin Sunken Cemetery::Northern Mindanao::heritage": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/The_Sunken_Cemetery_of_Camiguin_Island.jpg",
+    "width": 1502,
+    "height": 2002,
+    "aspect": 0.7502497502497503,
+    "credit": "Ray in Manila (CC BY 2.0)",
+    "title": "File:The Sunken Cemetery of Camiguin Island.jpg",
+    "source": "Wikimedia Commons",
+    "score": 1502
+  },
+  "Pamulinawen Festival::Laoag, Ilocos Norte::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Grade_school_folks.jpg",
+    "width": 960,
+    "height": 578,
+    "aspect": 1.6608996539792387,
+    "credit": "Cloverfly09 (CC BY-SA 4.0)",
+    "title": "File:Grade school folks.jpg",
+    "source": "Wikimedia Commons",
+    "score": 2960
+  },
+  "Bangus Festival::Dagupan, Pangasinan::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Shots_taken_during_Bangus_Festival_2024_in_Dagupan_City%2C_Pangasinan_13.jpg",
+    "width": 1280,
+    "height": 960,
+    "aspect": 1.3333333333333333,
+    "credit": "ChristopherDVShots (CC BY-SA 4.0)",
+    "title": "File:Shots taken during Bangus Festival 2024 in Dagupan City, Pangasinan 13.jpg",
+    "source": "Wikimedia Commons",
+    "score": 3280
+  },
+  "Inabel weaving Ilocos::Ilocos Region::crafts": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Abel_Iloco_2026-10-04_Ilocano_cultural_heritage_fabric_08.jpg",
+    "width": 3966,
+    "height": 1790,
+    "aspect": 2.2156424581005587,
+    "credit": "P1898 (CC BY 4.0)",
+    "title": "File:Abel Iloco 2026-10-04 Ilocano cultural heritage fabric 08.jpg",
+    "source": "Wikimedia Commons",
+    "score": 5966
+  },
+  "Bagnet Ilocos::Ilocos Region::food": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Ilocos_Miki_Noodle_Soup.jpg",
+    "width": 3554,
+    "height": 5332,
+    "aspect": 0.6665416354088523,
+    "credit": "Jessartcam (CC BY-SA 4.0)",
+    "title": "File:Ilocos Miki Noodle Soup.jpg",
+    "source": "Wikimedia Commons",
+    "score": 3554
+  },
+  "Bambanti Festival::Isabela::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Bambanti_Festival_%28Scarecrow_Festival%29_in_Isabela_the_Queen_Province_of_the_Philippines_01.jpg",
+    "width": 4608,
+    "height": 3456,
+    "aspect": 1.3333333333333333,
+    "credit": "Carmilynatienza (CC BY-SA 4.0)",
+    "title": "File:Bambanti Festival (Scarecrow Festival) in Isabela the Queen Province of the Philippines 01.jpg",
+    "source": "Wikimedia Commons",
+    "score": 6608
+  },
+  "Giant Lantern Festival::San Fernando, Pampanga::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/en/e/ea/Giant_Lantern_Festival_2023_Competition_Starmills_Round_3_3_%28San_Fernando%2C_Pampanga%3B_12-16-2023%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 3552,
+    "height": 2664,
+    "aspect": 1.3333333333333333,
+    "credit": "Wikipedia / Giant Lantern Festival",
+    "title": "Giant Lantern Festival",
+    "source": "Wikipedia"
+  },
+  "Pancit batil patong Tuguegarao::Cagayan Valley::food": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Pancit_Batil_Patong.jpg",
+    "width": 2048,
+    "height": 1536,
+    "aspect": 1.3333333333333333,
+    "credit": "Markadan (CC BY-SA 4.0)",
+    "title": "File:Pancit Batil Patong.jpg",
+    "source": "Wikimedia Commons",
+    "score": 4048
+  },
+  "Batanes stone house Sabtang::Cagayan Valley::heritage": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/THE_CHAVAYAN_STONE_HOUSE_VILLAGE_OF_BATANES.jpg",
+    "width": 5477,
+    "height": 3651,
+    "aspect": 1.5001369487811558,
+    "credit": "Jsinglador (CC BY-SA 4.0)",
+    "title": "File:THE CHAVAYAN STONE HOUSE VILLAGE OF BATANES.jpg",
+    "source": "Wikimedia Commons",
+    "score": 7477
+  },
+  "Pulilan Carabao Festival::Pulilan, Bulacan::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Pulilan_Kneeling_Carabaos_Festival_Bulacan_01.jpg",
+    "width": 5184,
+    "height": 3888,
+    "aspect": 1.3333333333333333,
+    "credit": "McpoJMdeLeon (CC BY-SA 4.0)",
+    "title": "File:Pulilan Kneeling Carabaos Festival Bulacan 01.jpg",
+    "source": "Wikimedia Commons",
+    "score": 7184
+  },
+  "Obando Fertility Rites::Obando, Bulacan::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/The_Town_of_Obando_historical_marker_and_Obando_Fertility_Rite_sculpture_at_the_town_hall_in_2012.jpg",
+    "width": 4608,
+    "height": 3456,
+    "aspect": 1.3333333333333333,
+    "credit": "Ramon FVelasquez (CC BY-SA 3.0)",
+    "title": "File:The Town of Obando historical marker and Obando Fertility Rite sculpture at the town hall in 2012.jpg",
+    "source": "Wikimedia Commons"
+  },
+  "Zambales Mango Festival::Zambales::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/IbaCapitoliojf9075_01.JPG",
+    "width": 4608,
+    "height": 3456,
+    "aspect": 1.3333333333333333,
+    "credit": "Ramon FVelasquez (CC BY-SA 3.0)",
+    "title": "File:IbaCapitoliojf9075 01.JPG",
+    "source": "Wikimedia Commons",
+    "score": 6608
+  },
+  "Sisig Pampanga::Central Luzon::food": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Sisig_Pinoy_Delicacy.jpg",
+    "width": 2604,
+    "height": 4624,
+    "aspect": 0.5631487889273357,
+    "credit": "Ladyclai (CC BY-SA 4.0)",
+    "title": "File:Sisig Pinoy Delicacy.jpg",
+    "source": "Wikimedia Commons",
+    "score": 2604
+  },
+  "Giant lantern San Fernando Pampanga::Central Luzon::crafts": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/09190jfSan_Fernando_City_Barangays_Juliana_Teresita_San_Jose_Market_Pampangafvf_01.jpg",
+    "width": 4608,
+    "height": 3456,
+    "aspect": 1.3333333333333333,
+    "credit": "Judgefloro (CC0)",
+    "title": "File:09190jfSan Fernando City Barangays Juliana Teresita San Jose Market Pampangafvf 01.jpg",
+    "source": "Wikimedia Commons",
+    "score": 6608
+  },
+  "Barasoain Church Malolos::Central Luzon::heritage": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/0461jfSanto_Barasoain_Church_Historic_House_Malolos_City_Bulacanfvf_05.JPG",
+    "width": 3456,
+    "height": 4608,
+    "aspect": 0.75,
+    "credit": "Judgefloro (Public domain)",
+    "title": "File:0461jfSanto Barasoain Church Historic House Malolos City Bulacanfvf 05.JPG",
+    "source": "Wikimedia Commons",
+    "score": 3456
+  },
+  "T'nalak Festival::Koronadal, South Cotabato::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/T%27nalak_Festival_2015_Koronadal_City%2C_South_Cotabato_%281%29.jpg",
+    "width": 960,
+    "height": 636,
+    "aspect": 1.509433962264151,
+    "credit": "Constantine Agustin (CC BY-SA 2.0)",
+    "title": "File:T'nalak Festival 2015 Koronadal City, South Cotabato (1).jpg",
+    "source": "Wikimedia Commons",
+    "score": 2960
+  },
+  "Ati-Atihan::Kalibo, Aklan::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/A_Woman_At_The_Kalibo_Ati-Atihan_Festival%2C_Philippines.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 2048,
+    "height": 1365,
+    "aspect": 1.5003663003663004,
+    "credit": "Wikipedia / Ati-Atihan",
+    "title": "Ati-Atihan",
+    "source": "Wikipedia"
+  },
+  "Kalivungan Festival::Cotabato Province::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Khianna.jpg",
+    "width": 713,
+    "height": 998,
+    "aspect": 0.7144288577154309,
+    "credit": "Official Facebook Page of the Provincial Government of (N... (Public domain)",
+    "title": "File:Khianna.jpg",
+    "source": "Wikimedia Commons",
+    "score": 713
+  },
+  "Tuna Festival::General Santos City::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Tuna_U.M._2010.jpg",
+    "width": 720,
+    "height": 478,
+    "aspect": 1.506276150627615,
+    "credit": "Tuna Universitária do Minho (Public domain)",
+    "title": "File:Tuna U.M. 2010.jpg",
+    "source": "Wikimedia Commons",
+    "score": 2720
+  },
+  "General Santos tuna::SOCCSKSARGEN::food": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/GenSan_Fish_Port_Complex_Rehabilitation_%28July_4%2C_2025%29.jpg",
+    "width": 5307,
+    "height": 3467,
+    "aspect": 1.5307182001730604,
+    "credit": "Jay Morales, DA-AFID (Public domain)",
+    "title": "File:GenSan Fish Port Complex Rehabilitation (July 4, 2025).jpg",
+    "source": "Wikimedia Commons",
+    "score": 7307
+  },
+  "T'nalak weaving T'boli::SOCCSKSARGEN::crafts": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/USAID_Measuring_Impact_Conservation_Enterprise_Retrospective_%28Philippines%3B_Kalahan_Educational_Foundation%29_%2840246611432%29.jpg",
+    "width": 6000,
+    "height": 4000,
+    "aspect": 1.5,
+    "credit": "USAID Biodiversity &amp; Forestry (Public domain)",
+    "title": "File:USAID Measuring Impact Conservation Enterprise Retrospective (Philippines; Kalahan Educational Foundation) (40246611432).jpg",
+    "source": "Wikimedia Commons",
+    "score": 8000
+  },
+  "Dinagyang::Iloilo City::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Iloilo_Dinagyang_Festival.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 3600,
+    "height": 2400,
+    "aspect": 1.5,
+    "credit": "Wikipedia / Dinagyang",
+    "title": "Dinagyang",
+    "source": "Wikipedia"
+  },
+  "Lake Sebu South Cotabato::SOCCSKSARGEN::heritage": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/View_from_Emilio%27s_Kawa_and_Flower_Garden%2C_Lake_Sebu%2C_Philippines.jpg",
+    "width": 6000,
+    "height": 4000,
+    "aspect": 1.5,
+    "credit": "Teemu Väisänen (CC BY-SA 4.0)",
+    "title": "File:View from Emilio's Kawa and Flower Garden, Lake Sebu, Philippines.jpg",
+    "source": "Wikimedia Commons",
+    "score": 8000
+  },
+  "Binirayan Festival::Antique::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Binirayan_Festival_of_Antique.jpg",
+    "width": 5547,
+    "height": 3698,
+    "aspect": 1.5,
+    "credit": "Ranieljosecastaneda (CC BY-SA 4.0)",
+    "title": "File:Binirayan Festival of Antique.jpg",
+    "source": "Wikimedia Commons"
+  },
+  "Halaran Festival::Roxas City, Capiz::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Roxas_sinadya_sa_halaran_beauty_pageant.jpg",
+    "width": 2400,
+    "height": 1800,
+    "aspect": 1.3333333333333333,
+    "credit": "Phantomsea2005 (Public domain)",
+    "title": "File:Roxas sinadya sa halaran beauty pageant.jpg",
+    "source": "Wikimedia Commons",
+    "score": 4400
+  },
+  "Pina cloth weaving Aklan::Western Visayas::crafts": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Head_artisan_master_weaver_Jeanafer_Vargas_Fernandez_Kalibo_Aklan_2026-10-11_premium_embroidered_fabric_textiles_04.jpg",
+    "width": 3072,
+    "height": 2473,
+    "aspect": 1.2422159320663162,
+    "credit": "P1898 (CC BY 4.0)",
+    "title": "File:Head artisan master weaver Jeanafer Vargas Fernandez Kalibo Aklan 2026-10-11 premium embroidered fabric textiles 04.jpg",
+    "source": "Wikimedia Commons",
+    "score": 5072
+  },
+  "Regatta de Zamboanga::Zamboanga City::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Regatta_de_Zamboanga_2019_%28Bro._Jeffrey_Pioquinto%2C_SJ%29_-_Flickr.jpg",
+    "width": 3648,
+    "height": 5472,
+    "aspect": 0.6666666666666666,
+    "credit": "Bro. Jeffrey Pioquinto, SJ (CC BY 2.0)",
+    "title": "File:Regatta de Zamboanga 2019 (Bro. Jeffrey Pioquinto, SJ) - Flickr.jpg",
+    "source": "Wikimedia Commons",
+    "score": 3648
+  },
+  "Miag-ao Church Iloilo::Western Visayas::heritage": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Miag-ao_Church_Iloilo_2.jpg",
+    "width": 3872,
+    "height": 2592,
+    "aspect": 1.4938271604938271,
+    "credit": "Philip Nalangan (CC BY 4.0)",
+    "title": "File:Miag-ao Church Iloilo 2.jpg",
+    "source": "Wikimedia Commons",
+    "score": 5872
+  },
+  "Hermosa Festival / Fiesta Pilar::Zamboanga City::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Balikbayan_Fiesta_-_Hermosa_Festival_2025_-_image_05.jpg",
+    "width": 5712,
+    "height": 4284,
+    "aspect": 1.3333333333333333,
+    "credit": "Robot8A (CC BY-SA 4.0)",
+    "title": "File:Balikbayan Fiesta - Hermosa Festival 2025 - image 05.jpg",
+    "source": "Wikimedia Commons",
+    "score": 7712
+  },
+  "La Paz batchoy::Western Visayas::food": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Batchoy_of_Iloilo.jpg",
+    "width": 4887,
+    "height": 3840,
+    "aspect": 1.27265625,
+    "credit": "Mhlayson (CC BY-SA 4.0)",
+    "title": "File:Batchoy of Iloilo.jpg",
+    "source": "Wikimedia Commons",
+    "score": 6887
+  },
+  "Buklog (Subanen thanksgiving ritual)::Zamboanga del Norte and Sur::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Subanen_SLT_Zamboanga_del_Sur_weaving_beadworkB.jpg",
+    "width": 4096,
+    "height": 3072,
+    "aspect": 1.3333333333333333,
+    "credit": "Wikimedia Commons (CC BY-SA 4.0)",
+    "title": "File:Subanen SLT Zamboanga del Sur weaving beadworkB.jpg",
+    "source": "Wikimedia Commons",
+    "score": 6096
+  },
+  "Lami-Lamihan Festival::Jolo, Sulu::festival": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Lami-Lamihan_Festival.jpg",
+    "width": 700,
+    "height": 429,
+    "aspect": 1.6317016317016317,
+    "credit": "Skyeraeder (Public domain)",
+    "title": "File:Lami-Lamihan Festival.jpg",
+    "source": "Wikimedia Commons",
+    "score": 2700
+  },
+  "Vinta boat Zamboanga::Zamboanga Peninsula::crafts": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/A_Living_Tradition_of_Zamboanga_City.jpg",
+    "width": 720,
+    "height": 448,
+    "aspect": 1.6071428571428572,
+    "credit": "Fayziii (CC0)",
+    "title": "File:A Living Tradition of Zamboanga City.jpg",
+    "source": "Wikimedia Commons",
+    "score": 2720
+  },
+  "Fort Pilar Zamboanga::Zamboanga Peninsula::heritage": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Fort_Pilar_%282008%29.jpg",
+    "width": 4157,
+    "height": 2760,
+    "aspect": 1.5061594202898552,
+    "credit": "Dennison Uy from Makati, Philippines (CC BY-SA 3.0)",
+    "title": "File:Fort Pilar (2008).jpg",
+    "source": "Wikimedia Commons",
+    "score": 6157
+  }
+}

@@ -31,8 +31,8 @@ festivals:
       month: 8,
       tagline: "A season of harvest gratitude.",
       description: "Davao's thanksgiving festival honors the harvest and the diverse communities of the region, including its Indigenous Lumad groups. Its name comes from a Mandaya word for something good, valuable and worthy of honor.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/kadayawan-sa-dabaw.jpg",
+      credit: "Wikipedia / Kadayawan Festival",
     }
   - {
       name: "Araw ng Dabaw",
@@ -42,8 +42,8 @@ festivals:
       day: 16,
       tagline: "A city's birthday.",
       description: "Marks Davao City's charter anniversary with parades, cultural programs and community celebrations.",
-      image: "",
-      credit: "",
+      image: "/content/images/festivals/araw-ng-dabaw.jpg",
+      credit: "Bro. Jeffrey Pioquinto, SJ (CC BY 2.0)",
     }
 tentativeFestivals: []
 food:
@@ -69,6 +69,16 @@ heritageSites:
   ]
 image: "/content/images/region-11/davao-region.jpg"
 imageCredit: ""
+storyImages:
+  crafts:
+    image: "/content/images/heritage/davao-region-crafts.jpg"
+    credit: "Wikimedia Commons (CC BY-SA 4.0)"
+  food:
+    image: "/content/images/heritage/davao-region-food.jpg"
+    credit: "PAULIX04 (CC BY-SA 4.0)"
+  heritage:
+    image: "/content/images/heritage/davao-region-heritage.jpg"
+    credit: "PAULIX04 (CC BY-SA 4.0)"
 reviewed: false
 ---
 

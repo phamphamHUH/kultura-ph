@@ -26,6 +26,12 @@ const regionSlugs = [
   "barmm",
 ];
 
+// TEMPORARY: set to true to bypass the Next.js image optimizer.
+// If the Western Visayas image appears with this on, the optimizer is
+// rejecting the file. Re-export it (sRGB, baseline, ~1600px wide, or .webp),
+// then set this back to false.
+const DEBUG_UNOPTIMIZED = true;
+
 type Suggestion = {
   islandGroup: string;
   name: string;
@@ -58,12 +64,14 @@ export default function SuggestionCard({
 }) {
   const [suggestions, setSuggestions] = useState<Suggestion[]>([]);
   const [loading, setLoading] = useState(true);
+  const [failedImages, setFailedImages] = useState<Record<string, boolean>>({});
 
   useEffect(() => {
     let cancelled = false;
 
     async function loadSuggestions() {
       setLoading(true);
+      setFailedImages({});
 
       try {
         const candidates = shuffle(
@@ -75,10 +83,10 @@ export default function SuggestionCard({
             const response = await fetch(`/content/data/regions/${slug}.md`);
             if (!response.ok) throw new Error("Region unavailable");
 
-            const markdown = await response.text();
+            const markdown = (await response.text()).replace(/\r\n?/g, "\n");
             const frontmatter =
               markdown.match(/^---\n([\s\S]*?)\n---/)?.[1] ?? "";
-            const normalizedMarkdown = markdown.replace(/\r\n?/g, "\n");
+            const normalizedMarkdown = markdown;
 
             const overview =
               normalizedMarkdown
@@ -145,13 +153,24 @@ export default function SuggestionCard({
           : suggestions.map((suggestion) => (
               <article key={suggestion.slug}>
                 <div className="relative mx-auto mt-4 h-40 w-full overflow-hidden rounded-lg bg-gray-200">
-                  {suggestion.image && (
+                  {suggestion.image && !failedImages[suggestion.slug] && (
                     <Image
                       src={suggestion.image}
                       alt={`${suggestion.name}`}
                       fill
                       sizes="(max-width: 1024px) 100vw, 400px"
                       className="object-cover object-center"
+                      unoptimized={DEBUG_UNOPTIMIZED}
+                      onError={() => {
+                        console.warn(
+                          `[SuggestionCard] Image failed for "${suggestion.slug}":`,
+                          suggestion.image,
+                        );
+                        setFailedImages((prev) => ({
+                          ...prev,
+                          [suggestion.slug]: true,
+                        }));
+                      }}
                     />
                   )}
                 </div>

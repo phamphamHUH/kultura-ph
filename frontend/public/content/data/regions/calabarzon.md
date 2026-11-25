@@ -31,7 +31,7 @@ festivals:
       day: 23,
       tagline: "Giants take to the streets.",
       description: "Angono's festival features towering papier-mâché figures paraded through the streets in honor of San Clemente, the town's patron saint, reflecting the town's reputation as the art capital of the Philippines.",
-      image: "",
+      image: "/content/images/calabarzon/higantes.jpg",
       credit: "",
     }
 tentativeFestivals:

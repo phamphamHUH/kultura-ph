@@ -25,7 +25,7 @@ festivals:
       month: 2,
       tagline: "Laoag celebrates in faith and community.",
       description: "Laoag's February celebration brings together religious observances and cultural activities in honor of Saint William the Hermit, the city's patron saint.",
-      image: "",
+      image: "/content/images/region-1/pamulinawen.jpg",
       credit: "",
     }
   - {

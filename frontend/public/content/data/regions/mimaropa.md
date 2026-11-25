@@ -25,7 +25,7 @@ festivals:
       endMonth: 4,
       tagline: "Masks, faith and mystery.",
       description: "A Lenten tradition in which participants wear masks and costumes of Roman soldiers, centered on the legend of Longinus, the centurion said to have pierced Christ's side. Observed in Boac, Mogpog and Gasan during Holy Week.",
-      image: "",
+      image: "/content/images/mimaropa/moriones.jpg",
       credit: "",
     }
   - {

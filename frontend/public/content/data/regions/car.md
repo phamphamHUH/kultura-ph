@@ -17,7 +17,7 @@ festivals:
       month: 2,
       tagline: "The mountain city in bloom.",
       description: "Baguio's flower festival, whose name comes from a Kankanaey term for a season of blooming. Floral floats and street dancing mark the festival, which began as a celebration of the city's recovery after the 1990 earthquake.",
-      image: "",
+      image: "/content/images/CAR/panagbenga.jpg",
       credit: "",
     }
   - {

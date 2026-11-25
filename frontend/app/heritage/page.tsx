@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
@@ -37,7 +38,36 @@ export const metadata: Metadata = {
     "Explore Philippine festivals through the places, communities, and traditions that give them meaning.",
 };
 
-export default async function CulturesPage({
+function StoriesSkeleton() {
+  return (
+    <>
+      <div className="flex animate-pulse flex-wrap gap-2">
+        {Array.from({ length: 4 }).map((_, i) => (
+          <div key={i} className="h-7 w-28 rounded-full bg-gray-200" />
+        ))}
+      </div>
+      <div className="flex animate-pulse flex-col divide-y divide-gray-200 border-t border-gray-200">
+        {Array.from({ length: 3 }).map((_, i) => (
+          <div
+            key={i}
+            className="grid gap-6 py-8 md:grid-cols-[minmax(0,2fr)_minmax(0,3fr)] lg:grid-cols-[25rem_1fr]"
+          >
+            <div className="aspect-5/3 rounded-lg bg-gray-200" />
+            <div className="flex flex-col gap-3">
+              <div className="h-3 w-32 rounded bg-gray-200" />
+              <div className="h-3 w-24 rounded bg-gray-200" />
+              <div className="mt-2 h-8 w-3/4 rounded bg-gray-200" />
+              <div className="h-4 w-full rounded bg-gray-200" />
+              <div className="h-4 w-5/6 rounded bg-gray-200" />
+            </div>
+          </div>
+        ))}
+      </div>
+    </>
+  );
+}
+
+async function StoriesBrowser({
   searchParams,
 }: {
   searchParams: Promise<{ category?: string; page?: string }>;
@@ -72,6 +102,184 @@ export default async function CulturesPage({
   const pages = Array.from({ length: totalPages }, (_, index) => index + 1);
 
   return (
+    <>
+      {/* Filters */}
+      <nav aria-label="Story categories" className="flex flex-wrap gap-2">
+        <Link
+          href="/heritage"
+          aria-current={!category ? "page" : undefined}
+          className={`${tabBase} ${!category ? tabActive : tabIdle}`}
+        >
+          All stories
+        </Link>
+
+        {(Object.keys(CATEGORY_LABELS) as StoryCategory[]).map((c) => (
+          <Link
+            key={c}
+            href={`/heritage?category=${c}`}
+            aria-current={category === c ? "page" : undefined}
+            className={`${tabBase} ${category === c ? tabActive : tabIdle}`}
+          >
+            {CATEGORY_LABELS[c]}
+          </Link>
+        ))}
+      </nav>
+
+      {/* Count row */}
+      <div className="flex items-center justify-between text-[10px] text-gray-500">
+        <span>
+          {total} {total === 1 ? "story" : "stories"} · Many ways of carrying
+          culture
+        </span>
+        <span className="font-semibold uppercase tracking-widest text-blue-800">
+          The editorial collection
+        </span>
+      </div>
+
+      {/* Story rows */}
+      <section aria-label="Stories" className="flex flex-col gap-2">
+        {stories.length > 0 ? (
+          <ul className="divide-y divide-gray-200 border-t border-gray-200">
+            {stories.map((s) => (
+              <li
+                key={`${s.regionSlug}-${s.category}`}
+                className="grid gap-6 py-8 md:grid-cols-[minmax(0,2fr)_minmax(0,3fr)] lg:grid-cols-[25rem_1fr]"
+              >
+                <Link
+                  href={`/heritage/${s.regionSlug}/${s.category}`}
+                  aria-label={s.title}
+                  className="relative aspect-5/3 overflow-hidden rounded-lg bg-gray-300"
+                >
+                  {s.image?.trim() ? (
+                    <Image
+                      src={s.image}
+                      alt={s.title}
+                      fill
+                      sizes="(min-width: 1024px) 40vw, 100vw"
+                      className="object-cover"
+                    />
+                  ) : (
+                    <span className="absolute inset-0 flex items-center justify-center text-xs text-gray-600">
+                      Photo coming soon
+                    </span>
+                  )}
+                </Link>
+
+                <div className="flex min-w-0 flex-col gap-1">
+                  <p className="text-[10px] font-semibold uppercase tracking-widest text-blue-800">
+                    {CATEGORY_LABELS[s.category]}
+                  </p>
+
+                  <p className="text-xs text-gray-500">{s.regionName}</p>
+
+                  <h2 className="mt-2 text-3xl font-semibold tracking-tight text-gray-900">
+                    {s.title}
+                  </h2>
+
+                  <p className="mt-2 text-sm leading-6 text-gray-600">
+                    {s.summary}
+                  </p>
+
+                  {s.image?.trim() && s.credit && (
+                    <p className="mt-1 text-[10px] text-gray-500">
+                      Photo: {s.credit}
+                    </p>
+                  )}
+
+                  <Link
+                    href={`/heritage/${s.regionSlug}/${s.category}`}
+                    className="mt-3 inline-flex w-fit items-center gap-1.5 text-xs font-semibold text-blue-800 hover:underline"
+                  >
+                    Explore the story
+                    <ArrowUpRight size={13} aria-hidden="true" />
+                  </Link>
+                </div>
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p className="py-8 text-sm text-gray-500">
+            No stories in this category yet.
+          </p>
+        )}
+
+        {/* Pagination */}
+        {total > 0 && (
+          <div className="flex flex-wrap items-center justify-between gap-2 border-t border-gray-200 px-4 py-3 text-xs text-gray-500">
+            <span>
+              Showing {from} - {to} of {total}{" "}
+              {total === 1 ? "story" : "stories"}
+            </span>
+
+            <nav
+              aria-label="Story pagination"
+              className="flex flex-wrap items-center gap-1.5"
+            >
+              {currentPage > 1 ? (
+                <Link
+                  href={pageHref(currentPage - 1, category)}
+                  aria-label="Previous page"
+                  className={paginationButtonClass}
+                >
+                  &lt;
+                </Link>
+              ) : (
+                <span
+                  aria-label="Previous page"
+                  aria-disabled="true"
+                  className={disabledPaginationClass}
+                >
+                  &lt;
+                </span>
+              )}
+
+              {pages.map((page) => (
+                <Link
+                  key={page}
+                  href={pageHref(page, category)}
+                  aria-label={`Page ${page}`}
+                  aria-current={page === currentPage ? "page" : undefined}
+                  className={`flex h-7 w-7 items-center justify-center rounded-md ${
+                    page === currentPage
+                      ? "bg-blue-800 font-bold text-white shadow-xs"
+                      : "border border-gray-200 hover:bg-gray-100"
+                  }`}
+                >
+                  {page}
+                </Link>
+              ))}
+
+              {currentPage < totalPages ? (
+                <Link
+                  href={pageHref(currentPage + 1, category)}
+                  aria-label="Next page"
+                  className={paginationButtonClass}
+                >
+                  &gt;
+                </Link>
+              ) : (
+                <span
+                  aria-label="Next page"
+                  aria-disabled="true"
+                  className={disabledPaginationClass}
+                >
+                  &gt;
+                </span>
+              )}
+            </nav>
+          </div>
+        )}
+      </section>
+    </>
+  );
+}
+
+export default function CulturesPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ category?: string; page?: string }>;
+}) {
+  return (
     <div className="bg-gray-50">
       <Header />
 
@@ -90,173 +298,9 @@ export default async function CulturesPage({
           </p>
         </div>
 
-        {/* Filters */}
-        <nav aria-label="Story categories" className="flex flex-wrap gap-2">
-          <Link
-            href="/heritage"
-            aria-current={!category ? "page" : undefined}
-            className={`${tabBase} ${!category ? tabActive : tabIdle}`}
-          >
-            All stories
-          </Link>
-
-          {(Object.keys(CATEGORY_LABELS) as StoryCategory[]).map((c) => (
-            <Link
-              key={c}
-              href={`/heritage?category=${c}`}
-              aria-current={category === c ? "page" : undefined}
-              className={`${tabBase} ${category === c ? tabActive : tabIdle}`}
-            >
-              {CATEGORY_LABELS[c]}
-            </Link>
-          ))}
-        </nav>
-
-        {/* Count row */}
-        <div className="flex items-center justify-between text-[10px] text-gray-500">
-          <span>
-            {total} {total === 1 ? "story" : "stories"} · Many ways of carrying
-            culture
-          </span>
-          <span className="font-semibold uppercase tracking-widest text-blue-800">
-            The editorial collection
-          </span>
-        </div>
-
-        {/* Story rows */}
-        <section aria-label="Stories" className="flex flex-col gap-2">
-          {stories.length > 0 ? (
-            <ul className="divide-y divide-gray-200 border-t border-gray-200">
-              {stories.map((s) => (
-                <li
-                  key={`${s.regionSlug}-${s.category}`}
-                  className="grid gap-6 py-8 md:grid-cols-[minmax(0,2fr)_minmax(0,3fr)] lg:grid-cols-[25rem_1fr]"
-                >
-                  <Link
-                    href={`/heritage/${s.regionSlug}/${s.category}`}
-                    aria-label={s.title}
-                    className="relative aspect-5/3 overflow-hidden rounded-lg bg-gray-300"
-                  >
-                    {s.image?.trim() ? (
-                      <Image
-                        src={s.image}
-                        alt={s.title}
-                        fill
-                        sizes="(min-width: 1024px) 40vw, 100vw"
-                        className="object-cover"
-                      />
-                    ) : (
-                      <span className="absolute inset-0 flex items-center justify-center text-xs text-gray-600">
-                        Photo coming soon
-                      </span>
-                    )}
-                  </Link>
-
-                  <div className="flex min-w-0 flex-col gap-1">
-                    <p className="text-[10px] font-semibold uppercase tracking-widest text-blue-800">
-                      {CATEGORY_LABELS[s.category]}
-                    </p>
-
-                    <p className="text-xs text-gray-500">{s.regionName}</p>
-
-                    <h2 className="mt-2 text-3xl font-semibold tracking-tight text-gray-900">
-                      {s.title}
-                    </h2>
-
-                    <p className="mt-2 text-sm leading-6 text-gray-600">
-                      {s.summary}
-                    </p>
-
-                    {s.image?.trim() && s.credit && (
-                      <p className="mt-1 text-[10px] text-gray-500">
-                        Photo: {s.credit}
-                      </p>
-                    )}
-
-                    <Link
-                      href={`/heritage/${s.regionSlug}/${s.category}`}
-                      className="mt-3 inline-flex w-fit items-center gap-1.5 text-xs font-semibold text-blue-800 hover:underline"
-                    >
-                      Explore the story
-                      <ArrowUpRight size={13} aria-hidden="true" />
-                    </Link>
-                  </div>
-                </li>
-              ))}
-            </ul>
-          ) : (
-            <p className="py-8 text-sm text-gray-500">
-              No stories in this category yet.
-            </p>
-          )}
-
-          {/* Pagination */}
-          {total > 0 && (
-            <div className="flex flex-wrap items-center justify-between gap-2 border-t border-gray-200 px-4 py-3 text-xs text-gray-500">
-              <span>
-                Showing {from} - {to} of {total}{" "}
-                {total === 1 ? "story" : "stories"}
-              </span>
-
-              <nav
-                aria-label="Story pagination"
-                className="flex flex-wrap items-center gap-1.5"
-              >
-                {currentPage > 1 ? (
-                  <Link
-                    href={pageHref(currentPage - 1, category)}
-                    aria-label="Previous page"
-                    className={paginationButtonClass}
-                  >
-                    &lt;
-                  </Link>
-                ) : (
-                  <span
-                    aria-label="Previous page"
-                    aria-disabled="true"
-                    className={disabledPaginationClass}
-                  >
-                    &lt;
-                  </span>
-                )}
-
-                {pages.map((page) => (
-                  <Link
-                    key={page}
-                    href={pageHref(page, category)}
-                    aria-label={`Page ${page}`}
-                    aria-current={page === currentPage ? "page" : undefined}
-                    className={`flex h-7 w-7 items-center justify-center rounded-md ${
-                      page === currentPage
-                        ? "bg-blue-800 font-bold text-white shadow-xs"
-                        : "border border-gray-200 hover:bg-gray-100"
-                    }`}
-                  >
-                    {page}
-                  </Link>
-                ))}
-
-                {currentPage < totalPages ? (
-                  <Link
-                    href={pageHref(currentPage + 1, category)}
-                    aria-label="Next page"
-                    className={paginationButtonClass}
-                  >
-                    &gt;
-                  </Link>
-                ) : (
-                  <span
-                    aria-label="Next page"
-                    aria-disabled="true"
-                    className={disabledPaginationClass}
-                  >
-                    &gt;
-                  </span>
-                )}
-              </nav>
-            </div>
-          )}
-        </section>
+        <Suspense fallback={<StoriesSkeleton />}>
+          <StoriesBrowser searchParams={searchParams} />
+        </Suspense>
 
         {/* Closing note */}
         <section className="grid gap-6 rounded-md px-6 py-6 bg-[#eef2ff] pt-8 md:grid-cols-2 md:gap-10">

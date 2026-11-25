@@ -4,13 +4,7 @@ import type { Metadata } from "next";
 
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
-import {
-  getFestivals,
-  sortByUpcoming,
-  type Festival,
-} from "@/public/lib/festivals";
-
-const PAGE_SIZE = 10;
+import { getFestivals, type Festival } from "@/public/lib/festivals";
 
 function Photo({ f, className }: { f: Festival; className: string }) {
   return (
@@ -50,54 +44,15 @@ export const metadata: Metadata = {
     "Explore Philippine festivals through the places, communities, and traditions that give them meaning.",
 };
 
-export default async function FestivalsPage({
-  searchParams,
-}: {
-  searchParams: Promise<{ page?: string }>;
-}) {
-  const { page: pageParam } = await searchParams;
-  const { dated, tentative } = await getFestivals();
-
-  // Mark each group explicitly, then sort dated festivals first.
-  const sorted = sortByUpcoming([
-    ...dated.map((festival) => ({
-      ...festival,
-      isTentative: false,
-    })),
-    ...tentative.map((festival) => ({
-      ...festival,
-      isTentative: true,
-    })),
-  ]);
+export default async function FestivalsPage() {
+  // Already sorted: dated festivals by upcoming season, tentative ones last.
+  const { festivals: sorted } = await getFestivals();
 
   // Only a dated festival can become the featured item.
   const focus = sorted.find((festival) => !festival.isTentative);
 
-  // The featured festival is separate from the paginated calendar.
+  // The featured festival is separate from the calendar list.
   const rest = focus ? sorted.filter((festival) => festival !== focus) : sorted;
-
-  const total = rest.length;
-  const totalPages = Math.max(1, Math.ceil(total / PAGE_SIZE));
-
-  const requestedPage = Number(pageParam);
-  const currentPage = Math.min(
-    Math.max(Number.isFinite(requestedPage) ? Math.floor(requestedPage) : 1, 1),
-    totalPages,
-  );
-
-  const startIndex = (currentPage - 1) * PAGE_SIZE;
-  const items = rest.slice(startIndex, startIndex + PAGE_SIZE);
-
-  const from = total > 0 ? startIndex + 1 : 0;
-  const to = Math.min(startIndex + PAGE_SIZE, total);
-
-  const pages = Array.from({ length: totalPages }, (_, index) => index + 1);
-
-  const paginationButtonClass =
-    "flex h-7 w-7 items-center justify-center rounded-md border border-gray-200 hover:bg-gray-100";
-
-  const disabledPaginationClass =
-    "flex h-7 w-7 cursor-not-allowed items-center justify-center rounded-md border border-gray-200 opacity-40";
 
   return (
     <div className="bg-gray-50">
@@ -115,7 +70,7 @@ export default async function FestivalsPage({
         </div>
 
         {/* Featured festival */}
-        {focus && currentPage === 1 && (
+        {focus && (
           <section
             aria-labelledby="focus-heading"
             className="grid gap-8 lg:grid-cols-[3fr_2fr]"
@@ -177,9 +132,9 @@ export default async function FestivalsPage({
             appear at the end.
           </p>
 
-          {items.length > 0 ? (
+          {rest.length > 0 ? (
             <ul className="divide-y divide-gray-200">
-              {items.map((festival) => (
+              {rest.map((festival) => (
                 <li
                   key={`${festival.regionSlug}-${festival.name}`}
                   className="grid gap-6 py-8 md:grid-cols-[minmax(0,2fr)_minmax(0,3fr)] lg:grid-cols-[25rem_1fr]"
@@ -224,72 +179,6 @@ export default async function FestivalsPage({
                 ? "More festival stories are coming soon."
                 : "No festivals available yet."}
             </p>
-          )}
-
-          {/* Pagination */}
-          {total > 0 && (
-            <div className="flex flex-wrap items-center justify-between gap-2 border-t border-gray-200 px-4 py-3 text-xs text-gray-500">
-              <span>
-                Showing {from} - {to} of {total} festivals
-              </span>
-
-              <nav
-                aria-label="Festival pagination"
-                className="flex flex-wrap items-center gap-1.5"
-              >
-                {currentPage > 1 ? (
-                  <Link
-                    href={`/festivals?page=${currentPage - 1}`}
-                    aria-label="Previous page"
-                    className={paginationButtonClass}
-                  >
-                    &lt;
-                  </Link>
-                ) : (
-                  <span
-                    aria-label="Previous page"
-                    aria-disabled="true"
-                    className={disabledPaginationClass}
-                  >
-                    &lt;
-                  </span>
-                )}
-
-                {pages.map((page) => (
-                  <Link
-                    key={page}
-                    href={`/festivals?page=${page}`}
-                    aria-label={`Page ${page}`}
-                    aria-current={page === currentPage ? "page" : undefined}
-                    className={`flex h-7 w-7 items-center justify-center rounded-md ${
-                      page === currentPage
-                        ? "bg-blue-800 font-bold text-white shadow-xs"
-                        : "border border-gray-200 hover:bg-gray-100"
-                    }`}
-                  >
-                    {page}
-                  </Link>
-                ))}
-
-                {currentPage < totalPages ? (
-                  <Link
-                    href={`/festivals?page=${currentPage + 1}`}
-                    aria-label="Next page"
-                    className={paginationButtonClass}
-                  >
-                    &gt;
-                  </Link>
-                ) : (
-                  <span
-                    aria-label="Next page"
-                    aria-disabled="true"
-                    className={disabledPaginationClass}
-                  >
-                    &gt;
-                  </span>
-                )}
-              </nav>
-            </div>
           )}
         </section>
 

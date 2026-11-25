@@ -49,8 +49,8 @@ festivals:
       endMonth: 5,
       tagline: "Cowboy country, celebrated.",
       description: "Held in Masbate, long known as cattle country, this festival gathers cowboys and ranchers for rodeo events, a parade and a showcase of the island's ranching heritage.",
-      image: \"/content/images/festivals/rodeo-masbateño.jpg\",
-      credit: \"The original uploader was Ringer at Central Bikol  (CC BY-SA 3.0)\",
+      image: "/content/images/festivals/rodeo-masbateño.jpg",
+      credit: "The original uploader was Ringer at Central Bikol  (CC BY-SA 3.0)",
     }
 tentativeFestivals:
   - {

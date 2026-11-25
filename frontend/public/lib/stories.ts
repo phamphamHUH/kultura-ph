@@ -1,6 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import matter from "gray-matter";
+import { cacheLife } from "next/cache";
 
 const REGIONS_DIR = path.join(process.cwd(), "public/content/data/regions");
 
@@ -98,10 +99,12 @@ function parseStories(
 }
 
 export async function getStories(): Promise<Story[]> {
+  "use cache";
+  cacheLife("max");
+
   const files = (await fs.readdir(REGIONS_DIR)).filter((f) =>
     f.endsWith(".md"),
   );
-  console.log("FILES:", files);
   const all = await Promise.all(
     files.map(async (file) => {
       const raw = await fs.readFile(path.join(REGIONS_DIR, file), "utf8");
@@ -109,12 +112,7 @@ export async function getStories(): Promise<Story[]> {
       return parseStories(data.slug, data.name, content, data);
     }),
   );
-  const result = all.flat();
-  console.log(
-    "STORIES:",
-    result.map((s) => `${s.regionSlug}/${s.category}`),
-  );
-  return result;
+  return all.flat();
 }
 
 export async function getStory(regionSlug: string, category: string) {

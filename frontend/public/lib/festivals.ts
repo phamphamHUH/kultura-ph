@@ -1,6 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import matter from "gray-matter";
+import { cacheLife } from "next/cache";
 
 const DIR = path.join(process.cwd(), "public", "content", "data", "regions");
 
@@ -21,6 +22,9 @@ export type Festival = {
 };
 
 export async function getFestivals() {
+  "use cache";
+  cacheLife("days");
+
   const files = (await fs.readdir(DIR)).filter((file) => file.endsWith(".md"));
 
   const dated: Festival[] = [];
@@ -54,7 +58,7 @@ export async function getFestivals() {
   return {
     dated,
     tentative,
-    festivals: sortByUpcoming([...dated, ...tentative]),
+    festivals: await sortByUpcoming([...dated, ...tentative]),
   };
 }
 
@@ -99,7 +103,11 @@ function daysUntil(festival: Festival, today: Date) {
   return (next.getTime() - today.getTime()) / 86_400_000;
 }
 
-export function sortByUpcoming(list: Festival[]) {
+// Async + cached so the current date is read inside a cache boundary.
+export async function sortByUpcoming(list: Festival[]): Promise<Festival[]> {
+  "use cache";
+  cacheLife("days");
+
   const today = manilaToday();
 
   const dated = list.filter(

@@ -45,8 +45,8 @@ festivals:
       month: 5,
       tagline: "A thanksgiving by the sea.",
       description: "Pangasinan's sea festival celebrates the province's coastal life and the bounty of its waters, bringing communities together through thanksgiving and public festivities.",
-      image: \"/content/images/festivals/pistay-dayat.jpg\",
-      credit: \"VanessaKeithTalon01 (CC BY-SA 4.0)\",
+      image: "/content/images/festivals/pistay-dayat.jpg",
+      credit: "VanessaKeithTalon01 (CC BY-SA 4.0)",
     }
 tentativeFestivals: []
 food:
